@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#6074c4", "description": "", "id": "PROJECT GUTENBERG", "label": "PROJECT GUTENBERG", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: PROJECT GUTENBERG\u003cbr\u003eDescription: ", "type": ""}, {"color": "#a5f835", "description": "", "id": "CHARLES DICKENS", "label": "CHARLES DICKENS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CHARLES DICKENS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#aaa23e", "description": "", "id": "GEORGE ALFRED WILLIAMS", "label": "GEORGE ALFRED WILLIAMS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: GEORGE ALFRED WILLIAMS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#b57953", "description": "", "id": "THE CHRISTMAS CAROL", "label": "THE CHRISTMAS CAROL", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: THE CHRISTMAS CAROL\u003cbr\u003eDescription: ", "type": ""}, {"color": "#9d0153", "description": "", "id": "SCROOGE", "label": "SCROOGE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#c8e072", "description": "", "id": "CHATHAM", "label": "CHATHAM", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CHATHAM\u003cbr\u003eDescription: ", "type": ""}, {"color": "#52c021", "description": "", "id": "THE PLATT \u0026 PECK CO.", "label": "THE PLATT \u0026 PECK CO.", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: THE PLATT \u0026 PECK CO.\u003cbr\u003eDescription: ", "type": ""}, {"color": "#913841", "description": "", "id": "NEW YORK", "label": "NEW YORK", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: NEW YORK\u003cbr\u003eDescription: ", "type": ""}, {"color": "#7472e7", "description": "", "id": "THE BAKER \u0026 TAYLOR COMPANY", "label": "THE BAKER \u0026 TAYLOR COMPANY", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: THE BAKER \u0026 TAYLOR COMPANY\u003cbr\u003eDescription: ", "type": ""}, {"color": "#f1f76a", "description": "", "id": "JOHN LEECH", "label": "JOHN LEECH", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: JOHN LEECH\u003cbr\u003eDescription: ", "type": ""}, {"color": "#222729", "description": "", "id": "DICKENS", "label": "DICKENS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: DICKENS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#b43946", "description": "", "id": "A CHRISTMAS CAROL", "label": "A CHRISTMAS CAROL", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: A CHRISTMAS CAROL\u003cbr\u003eDescription: ", "type": ""}, {"color": "#debef0", "description": "", "id": "MARLEY", "label": "MARLEY", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: MARLEY\u003cbr\u003eDescription: ", "type": ""}, {"color": "#5af23f", "description": "", "id": "SCROOGE AND MARLEY", "label": "SCROOGE AND MARLEY", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE AND MARLEY\u003cbr\u003eDescription: ", "type": ""}, {"color": "#7d94ff", "description": "", "id": "CHRISTMAS EVE", "label": "CHRISTMAS EVE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CHRISTMAS EVE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#90398d", "description": "", "id": "COUNTING HOUSE", "label": "COUNTING HOUSE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: COUNTING HOUSE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#39b495", "description": "", "id": "CHRISTMAS", "label": "CHRISTMAS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CHRISTMAS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#cc93b1", "description": "", "id": "SCROOGE\u0027S NIEPHW", "label": "SCROOGE\u0027S NIEPHW", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE\u0027S NIEPHW\u003cbr\u003eDescription: ", "type": ""}, {"color": "#585465", "description": "", "id": "SCROOGE\u0027S NIECE", "label": "SCROOGE\u0027S NIECE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE\u0027S NIECE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#bd4430", "description": "", "id": "TWO PORTLY GENTLEMEN", "label": "TWO PORTLY GENTLEMEN", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: TWO PORTLY GENTLEMEN\u003cbr\u003eDescription: ", "type": ""}, {"color": "#61e6d0", "description": "", "id": "GENTLEMAN", "label": "GENTLEMAN", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: GENTLEMAN\u003cbr\u003eDescription: ", "type": ""}, {"color": "#877495", "description": "", "id": "THE TREADMILL AND THE POOR LAW", "label": "THE TREADMILL AND THE POOR LAW", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: THE TREADMILL AND THE POOR LAW\u003cbr\u003eDescription: ", "type": ""}, {"color": "#983acb", "description": "", "id": "GENTLEMEN", "label": "GENTLEMEN", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: GENTLEMEN\u003cbr\u003eDescription: ", "type": ""}, {"color": "#08f494", "description": "", "id": "CAMDEN TOWN", "label": "CAMDEN TOWN", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CAMDEN TOWN\u003cbr\u003eDescription: ", "type": ""}, {"color": "#ed439e", "description": "", "id": "THE CRICKET ON THE HEARTH", "label": "THE CRICKET ON THE HEARTH", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: THE CRICKET ON THE HEARTH\u003cbr\u003eDescription: ", "type": ""}, {"color": "#5a18bf", "description": "", "id": "JOSEPH JEFFERSON", "label": "JOSEPH JEFFERSON", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: JOSEPH JEFFERSON\u003cbr\u003eDescription: ", "type": ""}, {"color": "#1902fc", "description": "", "id": "SCROOGE\u0027S NEPHEW", "label": "SCROOGE\u0027S NEPHEW", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE\u0027S NEPHEW\u003cbr\u003eDescription: ", "type": ""}, {"color": "#7f393b", "description": "", "id": "LORD MAYOR", "label": "LORD MAYOR", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: LORD MAYOR\u003cbr\u003eDescription: ", "type": ""}, {"color": "#d824d9", "description": "", "id": "CLERK", "label": "CLERK", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CLERK\u003cbr\u003eDescription: ", "type": ""}, {"color": "#37e26e", "description": "", "id": "COUNTING-HOUSE", "label": "COUNTING-HOUSE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: COUNTING-HOUSE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#90be19", "description": "", "id": "SCROOGLE", "label": "SCROOGLE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGLE\u003cbr\u003eDescription: ", "type": ""}, {"color": "#a354d2", "description": "", "id": "PRISONS", "label": "PRISONS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: PRISONS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#87a488", "description": "", "id": "UNION WORKHOUSES", "label": "UNION WORKHOUSES", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: UNION WORKHOUSES\u003cbr\u003eDescription: ", "type": ""}, {"color": "#e01ff5", "description": "", "id": "LABOURERS", "label": "LABOURERS", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: LABOURERS\u003cbr\u003eDescription: ", "type": ""}, {"color": "#07ebc0", "description": "", "id": "GAS-PIPES", "label": "GAS-PIPES", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: GAS-PIPES\u003cbr\u003eDescription: ", "type": ""}, {"color": "#ce2385", "description": "\"CHANGE\" LIKELY REFERS TO THE LONDON STOCK EXCHANGE WHERE SCROOGE HAD A GOOD REPUTATION", "id": "CHANGE", "label": "CHANGE", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CHANGE\u003cbr\u003eDescription: \"CHANGE\" LIKELY REFERS TO THE LONDON STOCK EXCHANGE WHERE SCROOGE HAD A GOOD REPUTATION", "type": "GEO"}, {"color": "#bf92f5", "description": "THIS IS LIKELY THE NAME OF SCROOGE AND MARLEY\u0027S BUSINESS FIRM, POSSIBLY A FINANCIAL OR TRADING COMPANY", "id": "SCROOGE AND MARLEY\u0027S", "label": "SCROOGE AND MARLEY\u0027S", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: SCROOGE AND MARLEY\u0027S\u003cbr\u003eDescription: THIS IS LIKELY THE NAME OF SCROOGE AND MARLEY\u0027S BUSINESS FIRM, POSSIBLY A FINANCIAL OR TRADING COMPANY", "type": "ORGANIZATION"}, {"color": "#d8a3d5", "description": "ST. DUNSTAN WAS AN ARCHBISHOP OF CANTERBURY WHO, ACCORDING TO FOLKLORE, HAD A LEGENDARY CONFRONTATION WITH THE DEVIL", "id": "ST. DUNSTAN", "label": "ST. DUNSTAN", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: ST. DUNSTAN\u003cbr\u003eDescription: ST. DUNSTAN WAS AN ARCHBISHOP OF CANTERBURY WHO, ACCORDING TO FOLKLORE, HAD A LEGENDARY CONFRONTATION WITH THE DEVIL", "type": "PERSON"}, {"color": "#13875d", "description": "CORNHILL IS A STREET IN LONDON KNOWN FOR ITS HISTORICAL SIGNIFICANCE AND COMMERCIAL ACTIVITIES", "id": "CORNHILL", "label": "CORNHILL", "shape": "dot", "size": 10, "source_id": 0, "title": "Name: CORNHILL\u003cbr\u003eDescription: CORNHILL IS A STREET IN LONDON KNOWN FOR ITS HISTORICAL SIGNIFICANCE AND COMMERCIAL ACTIVITIES", "type": "GEO"}]);
+                  edges = new vis.DataSet([{"description": "PROJECT GUTENBERG HAS MADE CHARLES DICKENS\u0027 WORK, A CHRISTMAS CAROL, AVAILABLE AS A FREE EBOOK.", "from": "PROJECT GUTENBERG", "source_id": 0, "title": "Description: PROJECT GUTENBERG HAS MADE CHARLES DICKENS\u0027 WORK, A CHRISTMAS CAROL, AVAILABLE AS A FREE EBOOK.\u003cbr\u003eWeight: 1.0", "to": "CHARLES DICKENS", "width": 8}, {"description": "GEORGE ALFRED WILLIAMS ILLUSTRATED THE BOOK \"A CHRISTMAS CAROL\" WRITTEN BY CHARLES DICKENS.", "from": "CHARLES DICKENS", "source_id": 0, "title": "Description: GEORGE ALFRED WILLIAMS ILLUSTRATED THE BOOK \"A CHRISTMAS CAROL\" WRITTEN BY CHARLES DICKENS.\u003cbr\u003eWeight: 1.0", "to": "GEORGE ALFRED WILLIAMS", "width": 9}, {"description": "CHARLES DICKENS WROTE \"A CHRISTMAS CAROL\" WHICH IS ONE OF HIS MOST CELEBRATED WORKS, HIGHLIGHTING HIS SKILL IN CHARACTERIZATION AND STORYTELLING.", "from": "CHARLES DICKENS", "source_id": 0, "title": "Description: CHARLES DICKENS WROTE \"A CHRISTMAS CAROL\" WHICH IS ONE OF HIS MOST CELEBRATED WORKS, HIGHLIGHTING HIS SKILL IN CHARACTERIZATION AND STORYTELLING.\u003cbr\u003eWeight: 1.0", "to": "THE CHRISTMAS CAROL", "width": 9}, {"description": "CHARLES DICKENS CREATED EBENEZER SCROOGE, A PIVOTAL CHARACTER IN \"A CHRISTMAS CAROL\" WHO UNDERGOES SIGNIFICANT PERSONAL GROWTH THROUGHOUT THE STORY.", "from": "CHARLES DICKENS", "source_id": 0, "title": "Description: CHARLES DICKENS CREATED EBENEZER SCROOGE, A PIVOTAL CHARACTER IN \"A CHRISTMAS CAROL\" WHO UNDERGOES SIGNIFICANT PERSONAL GROWTH THROUGHOUT THE STORY.\u003cbr\u003eWeight: 1.0", "to": "SCROOGE", "width": 9}, {"description": "GEORGE ALFRED WILLIAMS IS ASSOCIATED WITH CHATHAM, NJ WHERE HE MAY HAVE LIVED OR WORKED.", "from": "GEORGE ALFRED WILLIAMS", "source_id": 0, "title": "Description: GEORGE ALFRED WILLIAMS IS ASSOCIATED WITH CHATHAM, NJ WHERE HE MAY HAVE LIVED OR WORKED.\u003cbr\u003eWeight: 1.0", "to": "CHATHAM", "width": 5}, {"description": "THE PLATT \u0026 PECK CO. IS BASED IN NEW YORK AND PUBLISHED AN ILLUSTRATED VERSION OF A CHRISTMAS CAROL.", "from": "THE PLATT \u0026 PECK CO.", "source_id": 0, "title": "Description: THE PLATT \u0026 PECK CO. IS BASED IN NEW YORK AND PUBLISHED AN ILLUSTRATED VERSION OF A CHRISTMAS CAROL.\u003cbr\u003eWeight: 1.0", "to": "NEW YORK", "width": 7}, {"description": "BOTH COMPANIES WERE INVOLVED IN THE PUBLICATION OF CHARLES DICKENS\u0027 WORK, \"A CHRISTMAS CAROL\".", "from": "THE PLATT \u0026 PECK CO.", "source_id": 0, "title": "Description: BOTH COMPANIES WERE INVOLVED IN THE PUBLICATION OF CHARLES DICKENS\u0027 WORK, \"A CHRISTMAS CAROL\".\u003cbr\u003eWeight: 1.0", "to": "THE BAKER \u0026 TAYLOR COMPANY", "width": 6}, {"description": "JOHN LEECH PROVIDED THE ORIGINAL ILLUSTRATIONS FOR \"A CHRISTMAS CAROL,\" BRINGING THE CHARACTERS TO LIFE THROUGH DETAILED AND SPIRITED DRAWINGS.", "from": "THE CHRISTMAS CAROL", "source_id": 0, "title": "Description: JOHN LEECH PROVIDED THE ORIGINAL ILLUSTRATIONS FOR \"A CHRISTMAS CAROL,\" BRINGING THE CHARACTERS TO LIFE THROUGH DETAILED AND SPIRITED DRAWINGS.\u003cbr\u003eWeight: 1.0", "to": "JOHN LEECH", "width": 8}, {"description": "CHARLES DICKENS CREATED THE CHARACTER OF EBENEZER SCROOGE IN A CHRISTMAS CAROL, SHOWCASING DICKENS\u0027S POWER TO CREATE VARIED CHARACTERS.", "from": "SCROOGE", "source_id": 0, "title": "Description: CHARLES DICKENS CREATED THE CHARACTER OF EBENEZER SCROOGE IN A CHRISTMAS CAROL, SHOWCASING DICKENS\u0027S POWER TO CREATE VARIED CHARACTERS.\u003cbr\u003eWeight: 1.0", "to": "DICKENS", "width": 9}, {"description": "THE CHARACTER EBENEZER SCROOGE APPEARS PROMINENTLY IN CHARLES DICKENS\u0027S NOVELLA A CHRISTMAS CAROL AND UNDERGOES SIGNIFICANT PERSONAL TRANSFORMATION THROUGHOUT THE STORY.", "from": "SCROOGE", "source_id": 0, "title": "Description: THE CHARACTER EBENEZER SCROOGE APPEARS PROMINENTLY IN CHARLES DICKENS\u0027S NOVELLA A CHRISTMAS CAROL AND UNDERGOES SIGNIFICANT PERSONAL TRANSFORMATION THROUGHOUT THE STORY.\u003cbr\u003eWeight: 1.0", "to": "A CHRISTMAS CAROL", "width": 9}, {"description": "SCROOGE AND MARLEY WERE PARTNERS FOR MANY YEARS UNTIL MARLEY\u0027S DEATH. SCROOGE WAS RESPONSIBLE FOR ALL ASPECTS OF HANDLING MARLEY\u0027S AFFAIRS AFTER HIS DEATH.\nMARLEY WAS SCROOGE\u0027S BUSINESS PARTNER IN SCROOGE AND MARLEY, WHICH OPERATED AS A JOINT VENTURE UNTIL MARLEY\u0027S DEATH\n\"SCROOGE AND MARLEY\" WAS A BUSINESS PARTNERSHIP THAT EXISTED PRIOR TO MARLEY\u0027S DEATH SEVEN YEARS AGO; THEY WERE DESCRIBED AS KINDRED SPIRITS IN THEIR APPROACH TO BUSINESS.\nMARLEY, WHO WAS SCROOGE\u0027S DECEASED PARTNER FOR SEVEN YEARS, APPEARS TO SCROOGE AS A GHOSTLY PRESENCE ON THE DOOR KNOCKER, REMINDING HIM OF THEIR PAST BUSINESS RELATIONSHIP", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE AND MARLEY WERE PARTNERS FOR MANY YEARS UNTIL MARLEY\u0027S DEATH. SCROOGE WAS RESPONSIBLE FOR ALL ASPECTS OF HANDLING MARLEY\u0027S AFFAIRS AFTER HIS DEATH.\nMARLEY WAS SCROOGE\u0027S BUSINESS PARTNER IN SCROOGE AND MARLEY, WHICH OPERATED AS A JOINT VENTURE UNTIL MARLEY\u0027S DEATH\n\"SCROOGE AND MARLEY\" WAS A BUSINESS PARTNERSHIP THAT EXISTED PRIOR TO MARLEY\u0027S DEATH SEVEN YEARS AGO; THEY WERE DESCRIBED AS KINDRED SPIRITS IN THEIR APPROACH TO BUSINESS.\nMARLEY, WHO WAS SCROOGE\u0027S DECEASED PARTNER FOR SEVEN YEARS, APPEARS TO SCROOGE AS A GHOSTLY PRESENCE ON THE DOOR KNOCKER, REMINDING HIM OF THEIR PAST BUSINESS RELATIONSHIP\u003cbr\u003eWeight: 1.0", "to": "MARLEY", "width": 35}, {"description": "SCROOGE IS THE SURVIVING PARTNER OF THE FIRM SCROOGE AND MARLEY AFTER MARLEY\u0027S DEATH", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE IS THE SURVIVING PARTNER OF THE FIRM SCROOGE AND MARLEY AFTER MARLEY\u0027S DEATH\u003cbr\u003eWeight: 1.0", "to": "SCROOGE AND MARLEY", "width": 8}, {"description": "SCROOGE DISLIKES CHRISTMAS EVE AS IT BRINGS PEOPLE TOGETHER BUT EXCLUDES HIM FROM THE JOYOUS ACTIVITIES", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE DISLIKES CHRISTMAS EVE AS IT BRINGS PEOPLE TOGETHER BUT EXCLUDES HIM FROM THE JOYOUS ACTIVITIES\u003cbr\u003eWeight: 1.0", "to": "CHRISTMAS EVE", "width": 8}, {"description": "THE COUNTING HOUSE IS SCROOGE\u0027S PLACE OF BUSINESS WHERE HE SPENDS HIS DAYS, EVEN ON A DAY THAT OTHERS CONSIDER TO BE A HOLIDAY.", "from": "SCROOGE", "source_id": 0, "title": "Description: THE COUNTING HOUSE IS SCROOGE\u0027S PLACE OF BUSINESS WHERE HE SPENDS HIS DAYS, EVEN ON A DAY THAT OTHERS CONSIDER TO BE A HOLIDAY.\u003cbr\u003eWeight: 1.0", "to": "COUNTING HOUSE", "width": 7}, {"description": "SCROOGE HARBORS NEGATIVE FEELINGS TOWARDS CHRISTMAS AND CONSIDERS IT A HUMBUG\nSCROOGE VIEWS CHRISTMAS NEGATIVELY, CONSIDERING IT TO BE AN INSIGNIFICANT TIME, IN CONTRAST TO THE JOYFUL CELEBRATION PERSPECTIVE OF HIS NEPHEW.", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE HARBORS NEGATIVE FEELINGS TOWARDS CHRISTMAS AND CONSIDERS IT A HUMBUG\nSCROOGE VIEWS CHRISTMAS NEGATIVELY, CONSIDERING IT TO BE AN INSIGNIFICANT TIME, IN CONTRAST TO THE JOYFUL CELEBRATION PERSPECTIVE OF HIS NEPHEW.\u003cbr\u003eWeight: 1.0", "to": "CHRISTMAS", "width": 16}, {"description": "SCROOGE AND HIS NEPHEW DISAGREE ON THE MEANING AND VALUE OF CHRISTMAS", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE AND HIS NEPHEW DISAGREE ON THE MEANING AND VALUE OF CHRISTMAS\u003cbr\u003eWeight: 1.0", "to": "SCROOGE\u0027S NIEPHW", "width": 8}, {"description": "SCROOGE\u0027S NIECE TRIES TO INITIATE A FRIENDSHIP WITH SCROOGE AT CHRISTMAS DESPITE PREVIOUS DISAGREEMENTS, HIGHLIGHTING THE SEASON\u0027S THEME OF RECONCILIATION AND GOODWILL.", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE\u0027S NIECE TRIES TO INITIATE A FRIENDSHIP WITH SCROOGE AT CHRISTMAS DESPITE PREVIOUS DISAGREEMENTS, HIGHLIGHTING THE SEASON\u0027S THEME OF RECONCILIATION AND GOODWILL.\u003cbr\u003eWeight: 1.0", "to": "SCROOGE\u0027S NIECE", "width": 7}, {"description": "THE PORTLY GENTLEMEN VISIT SCROOGE\u0027S OFFICE DURING THE FESTIVE PERIOD TO DISCUSS POTENTIAL DONATIONS OR CONTRIBUTIONS ON BEHALF OF HIS BUSINESS; THEIR PRESENCE REFLECTS SOCIETAL EXPECTATIONS FOR CHARITABLE GIVING AT CHRISTMAS TIME.", "from": "SCROOGE", "source_id": 0, "title": "Description: THE PORTLY GENTLEMEN VISIT SCROOGE\u0027S OFFICE DURING THE FESTIVE PERIOD TO DISCUSS POTENTIAL DONATIONS OR CONTRIBUTIONS ON BEHALF OF HIS BUSINESS; THEIR PRESENCE REFLECTS SOCIETAL EXPECTATIONS FOR CHARITABLE GIVING AT CHRISTMAS TIME.\u003cbr\u003eWeight: 1.0", "to": "TWO PORTLY GENTLEMEN", "width": 5}, {"description": "MISTER SCROOGE AND THE GENTLEMAN HAVE AN EXCHANGE ABOUT SUPPORTING THE POOR AND DESTITUTE; HOWEVER, THEY DISAGREE ON THE NECESSITY OF SUCH ACTIONS", "from": "SCROOGE", "source_id": 0, "title": "Description: MISTER SCROOGE AND THE GENTLEMAN HAVE AN EXCHANGE ABOUT SUPPORTING THE POOR AND DESTITUTE; HOWEVER, THEY DISAGREE ON THE NECESSITY OF SUCH ACTIONS\u003cbr\u003eWeight: 1.0", "to": "GENTLEMAN", "width": 8}, {"description": "SCROOGE ACKNOWLEDGES THE OPERATION OF MECHANISMS LIKE THE TREADMILL AND POOR LAWS, INDICATING HIS TACIT SUPPORT FOR EXISTING SYSTEMS DESIGNED TO MANAGE POVERTY THROUGH WORK REQUIREMENTS.", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE ACKNOWLEDGES THE OPERATION OF MECHANISMS LIKE THE TREADMILL AND POOR LAWS, INDICATING HIS TACIT SUPPORT FOR EXISTING SYSTEMS DESIGNED TO MANAGE POVERTY THROUGH WORK REQUIREMENTS.\u003cbr\u003eWeight: 1.0", "to": "THE TREADMILL AND THE POOR LAW", "width": 6}, {"description": "\"SCROOGE HAD A CONVERSATION WITH GENTLEMEN WHO WITHDREW WHEN THEIR POINT BECAME USELESS TO PURSUE.\"", "from": "SCROOGE", "source_id": 0, "title": "Description: \"SCROOGE HAD A CONVERSATION WITH GENTLEMEN WHO WITHDREW WHEN THEIR POINT BECAME USELESS TO PURSUE.\"\u003cbr\u003eWeight: 1.0", "to": "GENTLEMEN", "width": 5}, {"description": "SCROOGE RUNS BACK HOME AFTER PLAYING BLINDMAN\u0027S BUFF IN CAMDEN TOWN", "from": "SCROOGE", "source_id": 0, "title": "Description: SCROOGE RUNS BACK HOME AFTER PLAYING BLINDMAN\u0027S BUFF IN CAMDEN TOWN\u003cbr\u003eWeight: 1.0", "to": "CAMDEN TOWN", "width": 7}, {"description": "JOSEPH JEFFERSON IS KNOWN FOR HIS MEMORABLE PORTRAYAL OF CALEB PLUMMER IN \"THE CRICKET ON THE HEARTH,\" MAKING THIS WORK PARTICULARLY WELL-KNOWN TO AMERICAN AUDIENCES.", "from": "THE CRICKET ON THE HEARTH", "source_id": 0, "title": "Description: JOSEPH JEFFERSON IS KNOWN FOR HIS MEMORABLE PORTRAYAL OF CALEB PLUMMER IN \"THE CRICKET ON THE HEARTH,\" MAKING THIS WORK PARTICULARLY WELL-KNOWN TO AMERICAN AUDIENCES.\u003cbr\u003eWeight: 1.0", "to": "JOSEPH JEFFERSON", "width": 7}, {"description": "MARLEY WAS A CO-FOUNDER AND PARTNER IN SCROOGE AND MARLEY UNTIL HIS DEATH", "from": "MARLEY", "source_id": 0, "title": "Description: MARLEY WAS A CO-FOUNDER AND PARTNER IN SCROOGE AND MARLEY UNTIL HIS DEATH\u003cbr\u003eWeight: 1.0", "to": "SCROOGE AND MARLEY", "width": 7}, {"description": "SCROOGE\u0027S NEPHEW EMBRACES THE SPIRIT OF CHRISTMAS DESPITE HIS UNCLE\u0027S REJECTION OF ITS MEANING", "from": "SCROOGE\u0027S NEPHEW", "source_id": 0, "title": "Description: SCROOGE\u0027S NEPHEW EMBRACES THE SPIRIT OF CHRISTMAS DESPITE HIS UNCLE\u0027S REJECTION OF ITS MEANING\u003cbr\u003eWeight: 1.0", "to": "CHRISTMAS", "width": 8}, {"description": "THE NEPHEW BELIEVES THAT CHRISTMAS IS A KIND AND CHARITABLE TIME FOR PEOPLE TO COME TOGETHER AND CELEBRATE.", "from": "CHRISTMAS", "source_id": 0, "title": "Description: THE NEPHEW BELIEVES THAT CHRISTMAS IS A KIND AND CHARITABLE TIME FOR PEOPLE TO COME TOGETHER AND CELEBRATE.\u003cbr\u003eWeight: 1.0", "to": "SCROOGE\u0027S NIEPHW", "width": 9}, {"description": "\"THE LORD MAYOR CELEBRATED CHRISTMAS ACCORDING TO HIS HOUSEHOLD\u0027S TRADITION.\"", "from": "CHRISTMAS", "source_id": 0, "title": "Description: \"THE LORD MAYOR CELEBRATED CHRISTMAS ACCORDING TO HIS HOUSEHOLD\u0027S TRADITION.\"\u003cbr\u003eWeight: 1.0", "to": "LORD MAYOR", "width": 5}, {"description": "THE CLERK WORKS FOR SCROOGE AT THE COUNTING-HOUSE, PERFORMING TASKS RELATED TO BOOKKEEPING AND FINANCIAL RECORD-KEEPING.", "from": "CLERK", "source_id": 0, "title": "Description: THE CLERK WORKS FOR SCROOGE AT THE COUNTING-HOUSE, PERFORMING TASKS RELATED TO BOOKKEEPING AND FINANCIAL RECORD-KEEPING.\u003cbr\u003eWeight: 1.0", "to": "COUNTING-HOUSE", "width": 4}, {"description": "SCROOGE IS THE EMPLOYER OF THE CLERK WHO WORKS IN HIS COUNTING-HOUSE. THE RELATIONSHIP BETWEEN THEM IS ONE OF MASTER-SERVANT WITH A TENSE DYNAMIC DUE TO SCROOGE\u0027S GRUFF DEMEANOR.", "from": "CLERK", "source_id": 0, "title": "Description: SCROOGE IS THE EMPLOYER OF THE CLERK WHO WORKS IN HIS COUNTING-HOUSE. THE RELATIONSHIP BETWEEN THEM IS ONE OF MASTER-SERVANT WITH A TENSE DYNAMIC DUE TO SCROOGE\u0027S GRUFF DEMEANOR.\u003cbr\u003eWeight: 1.0", "to": "SCROOGLE", "width": 3}, {"description": "PRISONS AND UNION WORKHOUSES ARE BOTH INSTITUTIONS THAT DEAL WITH MANAGING INDIVIDUALS WHO FACE HARDSHIPS BUT IN DIFFERENT WAYS. THE TEXT SUGGESTS SCROOGE SUPPORTS THESE ESTABLISHMENTS.", "from": "PRISONS", "source_id": 0, "title": "Description: PRISONS AND UNION WORKHOUSES ARE BOTH INSTITUTIONS THAT DEAL WITH MANAGING INDIVIDUALS WHO FACE HARDSHIPS BUT IN DIFFERENT WAYS. THE TEXT SUGGESTS SCROOGE SUPPORTS THESE ESTABLISHMENTS.\u003cbr\u003eWeight: 1.0", "to": "UNION WORKHOUSES", "width": 5}, {"description": "\"LABOURERS WERE REPAIRING THE GAS-PIPES, PROVIDING LIGHT AND WARMTH FOR PEOPLE IN THE FOGGY COLD.", "from": "LABOURERS", "source_id": 0, "title": "Description: \"LABOURERS WERE REPAIRING THE GAS-PIPES, PROVIDING LIGHT AND WARMTH FOR PEOPLE IN THE FOGGY COLD.\u003cbr\u003eWeight: 1.0", "to": "GAS-PIPES", "width": 4}, {"description": "SCROOGE OWNS AND OPERATES A COUNTING-HOUSE WHERE BUSINESS TRANSACTIONS TAKE PLACE.", "from": "SCROOGLE", "source_id": 0, "title": "Description: SCROOGE OWNS AND OPERATES A COUNTING-HOUSE WHERE BUSINESS TRANSACTIONS TAKE PLACE.\u003cbr\u003eWeight: 1.0", "to": "COUNTING-HOUSE", "width": 5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

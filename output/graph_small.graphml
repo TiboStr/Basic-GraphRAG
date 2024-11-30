@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="source_id" attr.type="long"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="long"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="PROJECT GUTENBERG">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="CHARLES DICKENS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="GEORGE ALFRED WILLIAMS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="THE PLATT &amp; PECK CO.">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="NEW YORK">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="THE BAKER &amp; TAYLOR COMPANY">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="THE CHRISTMAS CAROL">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="JOHN LEECH">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="THE CRICKET ON THE HEARTH">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="JOSEPH JEFFERSON">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="DICKENS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="CHATHAM">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="A CHRISTMAS CAROL">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="MARLEY">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="CHANGE">
+  <data key="d0">GEO</data>
+  <data key="d1">"CHANGE" LIKELY REFERS TO THE LONDON STOCK EXCHANGE WHERE SCROOGE HAD A GOOD REPUTATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE AND MARLEY">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS EVE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="COUNTING HOUSE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NEPHEW">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIEPHW">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIECE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE AND MARLEY'S">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THIS IS LIKELY THE NAME OF SCROOGE AND MARLEY'S BUSINESS FIRM, POSSIBLY A FINANCIAL OR TRADING COMPANY</data>
+  <data key="d2">0</data>
+</node>
+<node id="CLERK">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="TWO PORTLY GENTLEMEN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="GENTLEMAN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="PRISONS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="UNION WORKHOUSES">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="THE TREADMILL AND THE POOR LAW">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="LABOURERS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="GENTLEMEN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="GAS-PIPES">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="LORD MAYOR">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGLE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="ST. DUNSTAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">ST. DUNSTAN WAS AN ARCHBISHOP OF CANTERBURY WHO, ACCORDING TO FOLKLORE, HAD A LEGENDARY CONFRONTATION WITH THE DEVIL</data>
+  <data key="d2">0</data>
+</node>
+<node id="CORNHILL">
+  <data key="d0">GEO</data>
+  <data key="d1">CORNHILL IS A STREET IN LONDON KNOWN FOR ITS HISTORICAL SIGNIFICANCE AND COMMERCIAL ACTIVITIES</data>
+  <data key="d2">0</data>
+</node>
+<node id="CAMDEN TOWN">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="COUNTING-HOUSE">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<edge source="PROJECT GUTENBERG" target="CHARLES DICKENS">
+  <data key="d3">8</data>
+  <data key="d4">PROJECT GUTENBERG HAS MADE CHARLES DICKENS' WORK, A CHRISTMAS CAROL, AVAILABLE AS A FREE EBOOK.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="GEORGE ALFRED WILLIAMS">
+  <data key="d3">9</data>
+  <data key="d4">GEORGE ALFRED WILLIAMS ILLUSTRATED THE BOOK "A CHRISTMAS CAROL" WRITTEN BY CHARLES DICKENS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="THE CHRISTMAS CAROL">
+  <data key="d3">9</data>
+  <data key="d4">CHARLES DICKENS WROTE "A CHRISTMAS CAROL" WHICH IS ONE OF HIS MOST CELEBRATED WORKS, HIGHLIGHTING HIS SKILL IN CHARACTERIZATION AND STORYTELLING.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="SCROOGE">
+  <data key="d3">9</data>
+  <data key="d4">CHARLES DICKENS CREATED EBENEZER SCROOGE, A PIVOTAL CHARACTER IN "A CHRISTMAS CAROL" WHO UNDERGOES SIGNIFICANT PERSONAL GROWTH THROUGHOUT THE STORY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="GEORGE ALFRED WILLIAMS" target="CHATHAM">
+  <data key="d3">5</data>
+  <data key="d4">GEORGE ALFRED WILLIAMS IS ASSOCIATED WITH CHATHAM, NJ WHERE HE MAY HAVE LIVED OR WORKED.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="THE PLATT &amp; PECK CO." target="NEW YORK">
+  <data key="d3">7</data>
+  <data key="d4">THE PLATT &amp; PECK CO. IS BASED IN NEW YORK AND PUBLISHED AN ILLUSTRATED VERSION OF A CHRISTMAS CAROL.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="THE PLATT &amp; PECK CO." target="THE BAKER &amp; TAYLOR COMPANY">
+  <data key="d3">6</data>
+  <data key="d4">BOTH COMPANIES WERE INVOLVED IN THE PUBLICATION OF CHARLES DICKENS' WORK, "A CHRISTMAS CAROL".</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="THE CHRISTMAS CAROL" target="JOHN LEECH">
+  <data key="d3">8</data>
+  <data key="d4">JOHN LEECH PROVIDED THE ORIGINAL ILLUSTRATIONS FOR "A CHRISTMAS CAROL," BRINGING THE CHARACTERS TO LIFE THROUGH DETAILED AND SPIRITED DRAWINGS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="DICKENS">
+  <data key="d3">9</data>
+  <data key="d4">CHARLES DICKENS CREATED THE CHARACTER OF EBENEZER SCROOGE IN A CHRISTMAS CAROL, SHOWCASING DICKENS'S POWER TO CREATE VARIED CHARACTERS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="A CHRISTMAS CAROL">
+  <data key="d3">9</data>
+  <data key="d4">THE CHARACTER EBENEZER SCROOGE APPEARS PROMINENTLY IN CHARLES DICKENS'S NOVELLA A CHRISTMAS CAROL AND UNDERGOES SIGNIFICANT PERSONAL TRANSFORMATION THROUGHOUT THE STORY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="MARLEY">
+  <data key="d3">35</data>
+  <data key="d4">SCROOGE AND MARLEY WERE PARTNERS FOR MANY YEARS UNTIL MARLEY'S DEATH. SCROOGE WAS RESPONSIBLE FOR ALL ASPECTS OF HANDLING MARLEY'S AFFAIRS AFTER HIS DEATH.
+MARLEY WAS SCROOGE'S BUSINESS PARTNER IN SCROOGE AND MARLEY, WHICH OPERATED AS A JOINT VENTURE UNTIL MARLEY'S DEATH
+"SCROOGE AND MARLEY" WAS A BUSINESS PARTNERSHIP THAT EXISTED PRIOR TO MARLEY'S DEATH SEVEN YEARS AGO; THEY WERE DESCRIBED AS KINDRED SPIRITS IN THEIR APPROACH TO BUSINESS.
+MARLEY, WHO WAS SCROOGE'S DECEASED PARTNER FOR SEVEN YEARS, APPEARS TO SCROOGE AS A GHOSTLY PRESENCE ON THE DOOR KNOCKER, REMINDING HIM OF THEIR PAST BUSINESS RELATIONSHIP</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE AND MARLEY">
+  <data key="d3">8</data>
+  <data key="d4">SCROOGE IS THE SURVIVING PARTNER OF THE FIRM SCROOGE AND MARLEY AFTER MARLEY'S DEATH</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS EVE">
+  <data key="d3">8</data>
+  <data key="d4">SCROOGE DISLIKES CHRISTMAS EVE AS IT BRINGS PEOPLE TOGETHER BUT EXCLUDES HIM FROM THE JOYOUS ACTIVITIES</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="COUNTING HOUSE">
+  <data key="d3">7</data>
+  <data key="d4">THE COUNTING HOUSE IS SCROOGE'S PLACE OF BUSINESS WHERE HE SPENDS HIS DAYS, EVEN ON A DAY THAT OTHERS CONSIDER TO BE A HOLIDAY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS">
+  <data key="d3">16</data>
+  <data key="d4">SCROOGE HARBORS NEGATIVE FEELINGS TOWARDS CHRISTMAS AND CONSIDERS IT A HUMBUG
+SCROOGE VIEWS CHRISTMAS NEGATIVELY, CONSIDERING IT TO BE AN INSIGNIFICANT TIME, IN CONTRAST TO THE JOYFUL CELEBRATION PERSPECTIVE OF HIS NEPHEW.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S NIEPHW">
+  <data key="d3">8</data>
+  <data key="d4">SCROOGE AND HIS NEPHEW DISAGREE ON THE MEANING AND VALUE OF CHRISTMAS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S NIECE">
+  <data key="d3">7</data>
+  <data key="d4">SCROOGE'S NIECE TRIES TO INITIATE A FRIENDSHIP WITH SCROOGE AT CHRISTMAS DESPITE PREVIOUS DISAGREEMENTS, HIGHLIGHTING THE SEASON'S THEME OF RECONCILIATION AND GOODWILL.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="TWO PORTLY GENTLEMEN">
+  <data key="d3">5</data>
+  <data key="d4">THE PORTLY GENTLEMEN VISIT SCROOGE'S OFFICE DURING THE FESTIVE PERIOD TO DISCUSS POTENTIAL DONATIONS OR CONTRIBUTIONS ON BEHALF OF HIS BUSINESS; THEIR PRESENCE REFLECTS SOCIETAL EXPECTATIONS FOR CHARITABLE GIVING AT CHRISTMAS TIME.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GENTLEMAN">
+  <data key="d3">8</data>
+  <data key="d4">MISTER SCROOGE AND THE GENTLEMAN HAVE AN EXCHANGE ABOUT SUPPORTING THE POOR AND DESTITUTE; HOWEVER, THEY DISAGREE ON THE NECESSITY OF SUCH ACTIONS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="THE TREADMILL AND THE POOR LAW">
+  <data key="d3">6</data>
+  <data key="d4">SCROOGE ACKNOWLEDGES THE OPERATION OF MECHANISMS LIKE THE TREADMILL AND POOR LAWS, INDICATING HIS TACIT SUPPORT FOR EXISTING SYSTEMS DESIGNED TO MANAGE POVERTY THROUGH WORK REQUIREMENTS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GENTLEMEN">
+  <data key="d3">5</data>
+  <data key="d4">"SCROOGE HAD A CONVERSATION WITH GENTLEMEN WHO WITHDREW WHEN THEIR POINT BECAME USELESS TO PURSUE."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CAMDEN TOWN">
+  <data key="d3">7</data>
+  <data key="d4">SCROOGE RUNS BACK HOME AFTER PLAYING BLINDMAN'S BUFF IN CAMDEN TOWN</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="THE CRICKET ON THE HEARTH" target="JOSEPH JEFFERSON">
+  <data key="d3">7</data>
+  <data key="d4">JOSEPH JEFFERSON IS KNOWN FOR HIS MEMORABLE PORTRAYAL OF CALEB PLUMMER IN "THE CRICKET ON THE HEARTH," MAKING THIS WORK PARTICULARLY WELL-KNOWN TO AMERICAN AUDIENCES.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MARLEY" target="SCROOGE AND MARLEY">
+  <data key="d3">7</data>
+  <data key="d4">MARLEY WAS A CO-FOUNDER AND PARTNER IN SCROOGE AND MARLEY UNTIL HIS DEATH</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE'S NEPHEW" target="CHRISTMAS">
+  <data key="d3">8</data>
+  <data key="d4">SCROOGE'S NEPHEW EMBRACES THE SPIRIT OF CHRISTMAS DESPITE HIS UNCLE'S REJECTION OF ITS MEANING</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHRISTMAS" target="SCROOGE'S NIEPHW">
+  <data key="d3">9</data>
+  <data key="d4">THE NEPHEW BELIEVES THAT CHRISTMAS IS A KIND AND CHARITABLE TIME FOR PEOPLE TO COME TOGETHER AND CELEBRATE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHRISTMAS" target="LORD MAYOR">
+  <data key="d3">5</data>
+  <data key="d4">"THE LORD MAYOR CELEBRATED CHRISTMAS ACCORDING TO HIS HOUSEHOLD'S TRADITION."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CLERK" target="COUNTING-HOUSE">
+  <data key="d3">4</data>
+  <data key="d4">THE CLERK WORKS FOR SCROOGE AT THE COUNTING-HOUSE, PERFORMING TASKS RELATED TO BOOKKEEPING AND FINANCIAL RECORD-KEEPING.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CLERK" target="SCROOGLE">
+  <data key="d3">3</data>
+  <data key="d4">SCROOGE IS THE EMPLOYER OF THE CLERK WHO WORKS IN HIS COUNTING-HOUSE. THE RELATIONSHIP BETWEEN THEM IS ONE OF MASTER-SERVANT WITH A TENSE DYNAMIC DUE TO SCROOGE'S GRUFF DEMEANOR.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PRISONS" target="UNION WORKHOUSES">
+  <data key="d3">5</data>
+  <data key="d4">PRISONS AND UNION WORKHOUSES ARE BOTH INSTITUTIONS THAT DEAL WITH MANAGING INDIVIDUALS WHO FACE HARDSHIPS BUT IN DIFFERENT WAYS. THE TEXT SUGGESTS SCROOGE SUPPORTS THESE ESTABLISHMENTS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="LABOURERS" target="GAS-PIPES">
+  <data key="d3">4</data>
+  <data key="d4">"LABOURERS WERE REPAIRING THE GAS-PIPES, PROVIDING LIGHT AND WARMTH FOR PEOPLE IN THE FOGGY COLD.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGLE" target="COUNTING-HOUSE">
+  <data key="d3">5</data>
+  <data key="d4">SCROOGE OWNS AND OPERATES A COUNTING-HOUSE WHERE BUSINESS TRANSACTIONS TAKE PLACE.</data>
+  <data key="d5">0</data>
+</edge>
+</graph></graphml>

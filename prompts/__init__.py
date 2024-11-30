@@ -1,0 +1,1 @@
+"""Prompts used to prepare the data for the graph creations"""
