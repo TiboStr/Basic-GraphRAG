@@ -332,7 +332,7 @@ class Pipeline:
 
 if __name__ == "__main__":
     text_file_path = "data/a_christmas_carol.txt"
-    ollama_model = "qwen2.5:14b"
+    ollama_model = "qwen2"
     embedding_model = "nomic-embed-text"
 
     pipeline = Pipeline(text_file_path, ollama_model, embedding_model)
