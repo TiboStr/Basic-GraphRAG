@@ -344,6 +344,9 @@ class Pipeline:
         self.graph = KnowledgeGraph(folder_path, llm_model, llm_embedding)
 
     def run(self):
+        if os.path.exists(self.folder_path) and os.path.isdir(self.folder_path) and os.listdir(self.folder_path):
+            raise Exception(f"The folder '{self.folder_path}' is not empty. Please pick another folder or empty it.")
+
         print(Fore.YELLOW + "STARTING PIPELINE...")
 
         print(Fore.GREEN + "Extracting entities and relationships from text...")
@@ -377,7 +380,8 @@ if __name__ == "__main__":
     embedding_model = "nomic-embed-text"
 
     # INPUT_FILE = 'data/luminus_out_fulltext/09.Excitation_regulation_system.txt'
-    INPUT_FOLDER = 'data/input_data'
+    INPUT_FOLDER = 'data/luminus_out_fulltext'
+    # INPUT_FOLDER = 'data/xmas/a_christmas_carol_small.txt'
     OUTPUT_FOLDER = 'output_folder'
 
     pipeline = Pipeline(INPUT_FOLDER, OUTPUT_FOLDER, ollama_model, embedding_model)
