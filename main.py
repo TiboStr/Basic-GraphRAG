@@ -17,13 +17,6 @@ from prompts.defaults import completion_delimiter, entity_types, tuple_delimiter
 from prompts.summarize_entity_relation_descriptions import SUMMARIZE_ENTITIES
 
 
-# Ensure the directory structure exists
-def ensure_directory_exists(file_path):
-    directory = os.path.dirname(file_path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-
 class KnowledgeGraph:
     def __init__(self, folder_path: str, llm_model: str, llm_embedding: str):
         self.graphml_path = os.path.join(folder_path, 'knowledge_graph.graphml')
@@ -35,7 +28,7 @@ class KnowledgeGraph:
     def build_from_file(self, folder_path: str):
         file_name = os.path.join(folder_path, 'generated_relations.txt')
         # Ensure directory exists
-        ensure_directory_exists(file_name)
+        FileProcessor.ensure_directory_exists(file_name)
         with open(file_name, 'r') as file:
             lines = file.read().split('\n')
             pattern = re.compile(r'^\s*\(.*\)\s*$')
@@ -111,7 +104,7 @@ class KnowledgeGraph:
     def build_vectordb(self, folder_path):
         file_name = os.path.join(folder_path, 'vector_db.pkl')
         # Ensure directory exists
-        ensure_directory_exists(file_name)
+        FileProcessor.ensure_directory_exists(file_name)
 
         # Loop over nodes and relationships to embed them and store in vector DB
         print("Building vector database...")
@@ -236,6 +229,14 @@ class TextProcessor:
         return chunks
 
 
+class FileProcessor:
+    @staticmethod
+    def ensure_directory_exists(file_path):
+        directory = os.path.dirname(file_path)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+
 class EntityExtractor:
     def __init__(self, llm_model: str):
         self.llm = OllamaLLM(model=llm_model)
@@ -265,7 +266,7 @@ class EntityExtractor:
 
         output_file_path = os.path.join(folder_path, 'generated_relations.txt')
         # Ensure directory exists
-        ensure_directory_exists(output_file_path)
+        FileProcessor.ensure_directory_exists(output_file_path)
 
         # Open the output file with utf-8 encoding to handle Unicode characters
         with open(output_file_path, "w", encoding='utf-8') as f:
@@ -292,6 +293,7 @@ class EntityExtractor:
                 # Write each cleaned response directly to the file
                 for response in cleaned_responses:
                     f.write(response + "\n")
+                    f.flush()
 
     def _extract_entities_with_loop(self, formatted_prompt: str) -> list:
         response = self.llm.invoke(formatted_prompt)
@@ -371,12 +373,11 @@ class Pipeline:
 
 
 if __name__ == "__main__":
-    text_file_path = "combined_output.txt"
     ollama_model = "qwen2.5:14b"
     embedding_model = "nomic-embed-text"
 
     # INPUT_FILE = 'data/luminus_out_fulltext/09.Excitation_regulation_system.txt'
-    INPUT_FOLDER = 'data/a_christmas_carol_small2.txt'
+    INPUT_FOLDER = 'data/input_data'
     OUTPUT_FOLDER = 'output_folder'
 
     pipeline = Pipeline(INPUT_FOLDER, OUTPUT_FOLDER, ollama_model, embedding_model)
