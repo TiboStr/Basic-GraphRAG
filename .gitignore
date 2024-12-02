@@ -7,3 +7,5 @@ env
 .env
 
 __pycache__
+*luminus*
+data/*
