@@ -1,6 +1,9 @@
 import pickle
 import random
 import re
+import os
+from datetime import datetime
+from pathlib import Path
 
 import networkx as nx
 import numpy as np
@@ -14,15 +17,25 @@ from prompts.defaults import completion_delimiter, entity_types, tuple_delimiter
 from prompts.summarize_entity_relation_descriptions import SUMMARIZE_ENTITIES
 
 
+# Ensure the directory structure exists
+def ensure_directory_exists(file_path):
+    directory = os.path.dirname(file_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+
 class KnowledgeGraph:
-    def __init__(self, graphml_path: str, llm_model: str, llm_embedding: str):
-        self.graphml_path = graphml_path
+    def __init__(self, folder_path: str, llm_model: str, llm_embedding: str):
+        self.graphml_path = os.path.join(folder_path, 'knowledge_graph.graphml')
         self.llm = OllamaLLM(model=llm_model)
         self.llm_embedding = OllamaEmbeddings(model=llm_embedding)
         self.graph = nx.Graph()
         self.vector_db = {}  # A dictionary to store vectors and corresponding nodes/edges
 
-    def build_from_file(self, file_name: str):
+    def build_from_file(self, folder_path: str):
+        file_name = os.path.join(folder_path, 'generated_relations.txt')
+        # Ensure directory exists
+        ensure_directory_exists(file_name)
         with open(file_name, 'r') as file:
             lines = file.read().split('\n')
             pattern = re.compile(r'^\s*\(.*\)\s*$')
@@ -95,7 +108,11 @@ class KnowledgeGraph:
                 print(f"   {response}")
                 data["description"] = response
 
-    def build_vectordb(self, vector_db_path="output/vector_db.pkl"):
+    def build_vectordb(self, folder_path):
+        file_name = os.path.join(folder_path, 'vector_db.pkl')
+        # Ensure directory exists
+        ensure_directory_exists(file_name)
+
         # Loop over nodes and relationships to embed them and store in vector DB
         print("Building vector database...")
 
@@ -117,14 +134,16 @@ class KnowledgeGraph:
             edge_key = (source, target)
             self.vector_db[edge_key] = {"vector": vector, "type": "edge", "data": data}
 
-            with open(vector_db_path, "wb") as f:
+            with open(file_name, "wb") as f:
                 pickle.dump(self.vector_db, f)
 
         print("Vector database built successfully.")
 
-    def query_graph(self, query: str):
+    def query_graph(self, query: str, folder_path: str):
+        file_name = os.path.join(folder_path, 'vector_db.pkl')
+
         if not self.vector_db:
-            with open("output/vector_db.pkl", "rb") as f:
+            with open(file_name, "rb") as f:
                 self.vector_db = pickle.load(f)
 
         query_vector = self._get_embedding(query)
@@ -178,7 +197,9 @@ class KnowledgeGraph:
 
         return result
 
-    def show(self, output_file="output/knowledge_graph.html"):
+    def show(self, folder_path):
+        graph_path = os.path.join(folder_path, 'knowledge_graph.html')
+
         def insert_newlines(text):
             return re.sub(r'(\. )', r'\1\n', text).strip("\n")
 
@@ -198,8 +219,8 @@ class KnowledgeGraph:
                              edge_data.get("width", 1.0))  # For some reason the library changes weight to width?
                 edge["title"] = f"Description: {insert_newlines(description)}\nWeight: {weight}"
 
-        print(f"Open {output_file} in your browser to view the knowledge graph in html format.")
-        net.show(output_file)
+        print(f"Open {graph_path} in your browser to view the knowledge graph in html format.")
+        net.show(graph_path)
 
 
 class TextProcessor:
@@ -219,10 +240,21 @@ class EntityExtractor:
     def __init__(self, llm_model: str):
         self.llm = OllamaLLM(model=llm_model)
 
-    def extract_entities_from_file(self, input_file_path: str,
-                                   output_file_path: str = "output/extracted_entities_relations.txt") -> list:
-        with open(input_file_path, 'r') as file:
-            text = file.read()
+    def extract_entities_from_file(self, input_folder: str, folder_path: str) -> None:
+        text = ""
+        # Check if the input is a file or a folder
+        if os.path.isfile(input_folder):
+            # Single file
+            with open(input_folder, 'r', encoding='utf-8') as file:
+                text = file.read()
+        elif os.path.isdir(input_folder):
+            # Input is a folder; read all files in the folder
+            for file_path in Path(input_folder).glob('*.txt'):
+                if file_path.is_file():  # Ensure it's a file
+                    with open(file_path, 'r', encoding='utf-8') as file:
+                        text += file.read() + "\n"  # Concatenate files with a newline separator
+        else:
+            raise ValueError(f"The input path '{input_folder}' is neither a valid file nor a folder.")
 
         chunks = TextProcessor.split_text_into_chunks(text)
         prompt = PromptTemplate(
@@ -231,29 +263,35 @@ class EntityExtractor:
                              "input_text"]
         )
 
-        responses = []
+        output_file_path = os.path.join(folder_path, 'generated_relations.txt')
+        # Ensure directory exists
+        ensure_directory_exists(output_file_path)
 
-        for i, chunk in enumerate(chunks):
-            print(f"    Processing chunk {i + 1} of {len(chunks)}")
-            formatted_prompt = prompt.format(
-                entity_types=entity_types,
-                tuple_delimiter=tuple_delimiter,
-                record_delimiter=record_delimiter,
-                completion_delimiter=completion_delimiter,
-                input_text=chunk
-            )
-            dirty_responses = self._extract_entities_with_loop(formatted_prompt)
-            print(dirty_responses)
-            cleaned_responses = [item.strip(" \n") for r in dirty_responses if "entity" in r or "relationship" in r for
-                                 item in
-                                 r.strip(" \n").split(record_delimiter)]
-            # cleaned_responses = self._cleanup_responses(dirty_responses)
-            print(cleaned_responses)
-            responses.extend(cleaned_responses)
+        # Open the output file with utf-8 encoding to handle Unicode characters
+        with open(output_file_path, "w", encoding='utf-8') as f:
+            for i, chunk in enumerate(chunks):
 
-        with open(output_file_path, "w") as f:
-            f.write("\n".join(responses))
-        return responses
+                # Print with timestamp
+                print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Processing chunk {i + 1} of {len(chunks)}")
+
+                formatted_prompt = prompt.format(
+                    entity_types=entity_types,
+                    tuple_delimiter=tuple_delimiter,
+                    record_delimiter=record_delimiter,
+                    completion_delimiter=completion_delimiter,
+                    input_text=chunk
+                )
+                dirty_responses = self._extract_entities_with_loop(formatted_prompt)
+                # print(dirty_responses)
+                cleaned_responses = [
+                    item.strip(" \n") for r in dirty_responses if "entity" in r or "relationship" in r
+                    for item in r.strip(" \n").split(record_delimiter)
+                ]
+                print(cleaned_responses)
+
+                # Write each cleaned response directly to the file
+                for response in cleaned_responses:
+                    f.write(response + "\n")
 
     def _extract_entities_with_loop(self, formatted_prompt: str) -> list:
         response = self.llm.invoke(formatted_prompt)
@@ -296,44 +334,50 @@ class EntityExtractor:
 
 
 class Pipeline:
-    def __init__(self, text_file: str, llm_model: str, llm_embedding: str):
-        self.text_file = text_file
+    def __init__(self, input_folder: str, folder_path: str, llm_model: str, llm_embedding: str):
+        self.input_folder = input_folder
+        self.folder_path = folder_path
         self.llm_model = llm_model
         self.entity_extractor = EntityExtractor(llm_model)
-        self.graph = KnowledgeGraph("output/knowledge_graph.graphml", llm_model, llm_embedding)
+        self.graph = KnowledgeGraph(folder_path, llm_model, llm_embedding)
 
     def run(self):
         print(Fore.YELLOW + "STARTING PIPELINE...")
 
         print(Fore.GREEN + "Extracting entities and relationships from text...")
         print(Style.RESET_ALL)
-        self.entity_extractor.extract_entities_from_file(self.text_file, "output/response.txt")
+        self.entity_extractor.extract_entities_from_file(self.input_folder, self.folder_path)
 
         print(Fore.GREEN + "Building the knowledge graph...")
         print(Style.RESET_ALL)
-        self.graph.build_from_file("output/response.txt")
+        self.graph.build_from_file(self.folder_path)
 
         print(Fore.GREEN + "VISUALIZING THE KNOWLEDGE GRAPH...")
         print(Style.RESET_ALL)
 
-        self.graph.show()
+        self.graph.show(self.folder_path)
 
         print(Fore.GREEN + "Building the vector database...")
         print(Style.RESET_ALL)
-        self.graph.build_vectordb()
+        self.graph.build_vectordb(self.folder_path)
 
         print(Fore.GREEN + "Querying the knowledge graph...")
         print(Style.RESET_ALL)
-        answer = self.graph.query_graph("Who earns £15 per week and who is his or her boss?")
+        answer = self.graph.query_graph("What are the 5 most important things a plant expert should know?",
+                                        self.folder_path)
         print(answer)  # TODO: dit moet dan eigenlijk nog door een LLM gaan voor NLP output
 
         print(Fore.GREEN + "Pipeline completed!")
 
 
 if __name__ == "__main__":
-    text_file_path = "data/a_christmas_carol.txt"
+    text_file_path = "combined_output.txt"
     ollama_model = "qwen2.5:14b"
     embedding_model = "nomic-embed-text"
 
-    pipeline = Pipeline(text_file_path, ollama_model, embedding_model)
+    # INPUT_FILE = 'data/luminus_out_fulltext/09.Excitation_regulation_system.txt'
+    INPUT_FOLDER = 'data/a_christmas_carol_small2.txt'
+    OUTPUT_FOLDER = 'output_folder'
+
+    pipeline = Pipeline(INPUT_FOLDER, OUTPUT_FOLDER, ollama_model, embedding_model)
     pipeline.run()
