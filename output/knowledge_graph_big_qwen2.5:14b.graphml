@@ -1,0 +1,1315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="source_id" attr.type="long"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="long"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="PROJECT GUTENBERG">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Project Gutenberg is an initiative by Professor Michael S. Hart aimed at creating a library of freely shareable electronic books. The organization focuses on distributing electronic works, particularly those in the public domain and certain licensed texts, making them accessible worldwide under specific license conditions. Project Gutenberg operates with a reliance on volunteers and donations for its operations, providing free electronic versions of books and other texts available for download across various formats. It promotes free access to electronic literature while adhering to specific licensing terms when sharing its materials.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHARLES DICKENS">
+  <data key="d0">PERSON</data>
+  <data key="d1">Charles Dickens was a renowned English writer known for his vivid characterization and satirical works. Among his most famous contributions to literature is the novella "A Christmas Carol," which exemplifies his masterful creation of characters and insightful social commentary. His literary output includes numerous other celebrated works that have left an indelible mark on English literature.</data>
+  <data key="d2">0</data>
+</node>
+<node id="GEORGE ALFRED WILLIAMS">
+  <data key="d0">PERSON</data>
+  <data key="d1">GEORGE ALFRED WILLIAMS ILLUSTRATED "A CHRISTMAS CAROL"</data>
+  <data key="d2">0</data>
+</node>
+<node id="NEW YORK">
+  <data key="d0">GEO</data>
+  <data key="d1">"NEW YORK IS A CITY WHERE THE PLATT &amp; PECK CO. PUBLISHED A CHRISTMAS CAROL IN 1905"</data>
+  <data key="d2">0</data>
+</node>
+<node id="THE PLATT &amp; PECK CO.">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE PLATT &amp; PECK COMPANY PUBLISHED THE BOOK "A CHRISTMAS CAROL"</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS CAROL">
+  <data key="d0">EVENT</data>
+  <data key="d1">"A CHRISTMAS CAROL" IS A CELEBRATED LITERARY WORK BY CHARLES DICKENS PUBLISHED AROUND THE CHRISTMAS SEASON, FEATURING CHARACTERS LIKE EBENEZER SCROOGE AND THE GHOSTS OF CHRISTMAS PAST, PRESENT, AND FUTURE</data>
+  <data key="d2">0</data>
+</node>
+<node id="THACKERAY">
+  <data key="d0">PERSON</data>
+  <data key="d1">WILLIAM MAKEPEACE THACKERAY WAS AN ENGLISH NOVELIST WHO PRAISED "A CHRISTMAS CAROL"</data>
+  <data key="d2">0</data>
+</node>
+<node id="JOHN LEECH">
+  <data key="d0">PERSON</data>
+  <data key="d1">JOHN LEECH WAS A BRITISH ARTIST KNOWN FOR HIS ILLUSTRATIONS IN CHARLES DICKENS' WORKS SUCH AS "A CHRISTMAS CAROL"</data>
+  <data key="d2">0</data>
+</node>
+<node id="TINY TIM">
+  <data key="d0">PERSON</data>
+  <data key="d1">TINY TIM is a character from "A Christmas Carol," known for his memorable line "God bless us, every one!" He is Bob and Martha Cratchit's youngest child and is often described as having a plaintive little voice. Tiny Tim uses a crutch and has an iron frame supporting his limbs due to his physical condition, which makes him small or possibly ill. He is seated beside his father during their festive meal and is carried by his father because of his health issues. His well-being is a matter of concern throughout the narrative, but he does not die due to Scrooge’s benevolence after the protagonist's transformation. Instead, Tiny Tim becomes a beneficiary of Scrooge's goodwill and continues as a vital member of Bob Cratchit's family, remembered fondly by them.</data>
+  <data key="d2">0</data>
+</node>
+<node id="THE CHRISTMAS BOOKS">
+  <data key="d0"></data>
+  <data key="d1"></data>
+  <data key="d2">0</data>
+</node>
+<node id="A CHRISTMAS CAROL">
+  <data key="d0">WORK_OF_ART</data>
+  <data key="d1">"A CHRISTMAS CAROL" IS A WELL-KNOWN LITERARY WORK BY CHARLES DICKENS FEATURING CHARACTERS LIKE SCROOGE</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ebenezer Scrooge is a central character in Charles Dickens's "A Christmas Carol," known for his transformation from miserliness to redemption. He was Marley’s partner and executor of his estate, described as a tight-fisted, miserly businessman who owned a counting-house and ran the business Scrooge and Marley with an indifferent demeanor towards human sympathy and charitable causes. Scrooge is disliked for his coldness, dismissal of Christmas festivities, and avoidance of family gatherings.
+
+During Christmas Eve, Scrooge undergoes a series of transformative visits from supernatural beings that reflect on his past actions and current life choices. He sees visions of the past, present, and future with guidance from spirits who aim to change his outlook on life through emotional turmoil and spiritual enlightenment. These experiences influence him deeply, causing him to reconsider his disdain for Christmas celebrations and his treatment of others.
+
+After these encounters, Scrooge undergoes a significant change of heart, showing kindness and generosity towards his employees and participating more actively in family gatherings like Fred's dinner party. This transformation is marked by happiness and relief as he embraces charity and celebration, reflecting on his past actions with newfound understanding and compassion. Throughout the narrative, Scrooge becomes well-known among businessmen for his altered demeanor and behavior, marking a profound shift in his character from a disliked, wealthy individual to someone who values community and familial bonds.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MARLEY'S GHOST">
+  <data key="d0">EVENT</data>
+  <data key="d1">"Marley's Ghost" is an event in "A Christmas Carol" where the spirit of Jacob Marley, a former business partner of Ebenezer Scrooge, visits him on Christmas Eve as part of his journey of transformation. This supernatural visitor warns Scrooge with incoherent sounds and mournful dirges, serving to set the stage for Scrooge's eventual change of heart.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MARLEY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Jacob Marley was Ebenezer Scrooge's deceased business partner who died seven years prior to the story's events. He is often symbolized as being tormented by chains representing missed opportunities during life. Marley's death brought about significant changes in Scrooges' life and business practices. His ghost or face appeared to Scrooge as a reminder from beyond the grave, emphasizing his death at the beginning of the passage and appearing in Scrooge’s thoughts throughout.</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE AND MARLEY">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">SCROOGE AND MARLEY IS THE NAME OF THE FIRM RUN BY EBENEZER SCROOGE AFTER HIS BUSINESS PARTNER JACOB MARLEY'S DEATH</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S COUNTING-HOUSE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE COUNTING-HOUSE IS WHERE SCROOGE WORKS AND MANAGES HIS CLERK</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NEPHEW">
+  <data key="d0">PERSON</data>
+  <data key="d1">SCROOGE'S NEPHEW is enthusiastic about Christmas and challenges his uncle's negative attitude towards the holiday. He persistently tries to make amends with Ebenezer Scrooge during the holiday season and often engages in laughter and merry-making, thereby challenging Scrooge’s views on Christmas.</data>
+  <data key="d2">0</data>
+</node>
+<node id="LONDON FOG">
+  <data key="d0">GEO</data>
+  <data key="d1">A DENSE FOG THAT ENVELOPS LONDON, MAKING IT DARK EARLY IN THE DAY AND LIMITING VISIBILITY</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS DAY">
+  <data key="d0">EVENT</data>
+  <data key="d1">Christmas Day is a significant event in the narrative where it is met with disdain by Scrooge, who views it as nothing more than a humbug. However, for the Cratchit family, Christmas Day marks a special occasion where they gather together despite personal challenges such as Tiny Tim's health issues. In the story, Christmas Day is also the event celebrated after Scrooge has been visited by the spirits and finds himself transformed in his outlook towards the holiday.</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIEPHOW">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE NEPHEW OF EBENEZER SCROOGE, WHO INVITES HIM TO DINE DURING CHRISTMAS BUT GETS TURNED DOWN BY SCROOGE</data>
+  <data key="d2">0</data>
+</node>
+<node id="PARLIAMENT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A LEGISLATIVE BODY IN A GOVERNMENT WHERE POWERFUL SPEAKERS LIKE SCROOGE'S NEPHEW COULD POTENTIALLY WORK</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE AND MARLEY'S">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE COMPANY NAME OF SCROOGE AND HIS LATE BUSINESS PARTNER MARLEY, WHICH PRESUMABLY OPERATES IN LONDON AND IS ENGAGED IN FINANCIAL OR COMMERCIAL ACTIVITIES THAT DO NOT SHOW MUCH CONCERN FOR THE WELFARE OF OTHERS</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS">
+  <data key="d0">EVENT</data>
+  <data key="d1">Christmas is an annually celebrated significant event marking the birth of Jesus Christ and is characterized by themes of joy, sharing, and goodwill. It is a time when people exchange gifts and gather to celebrate with lighting up homes and maintaining joyful spirits. In certain narratives, such as those involving Scrooge and his family members, Christmas serves both as a subject of contention and an opportunity for change in attitude towards celebrating the holiday season. Throughout the text, Christmas provides context for family gatherings and warmth, depicting scenes where Scrooge's family and friends strive to alter his perspective on the importance of joy and generosity during this festive period.</data>
+  <data key="d2">0</data>
+</node>
+<node id="UNCLE">
+  <data key="d0">PERSON</data>
+  <data key="d1">AN UNSPECIFIED CHARACTER REFERRED TO AS SCROOGE'S NEPHEW WHO WISHES HIM A MERRY CHRISTMAS DESPITE HIS UNCLE’S INDIFFERENCE TOWARDS THE HOLIDAY SPIRIT</data>
+  <data key="d2">0</data>
+</node>
+<node id="CLERK">
+  <data key="d0">PERSON</data>
+  <data key="d1">A WORKER EMPLOYED BY SCROOGE AND MARLEY'S COMPANY EARNING FIFTEEN SHILLINGS WEEKLY, WITH RESPONSIBILITIES INCLUDING DAILY OPERATIONS WITHIN THE OFFICE ENVIRONMENT</data>
+  <data key="d2">0</data>
+</node>
+<node id="PRISONS">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">PRISONS ARE INSTITUTIONS MENTIONED BY THE GENTLEMAN AS STILL BEING IN OPERATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="UNION WORKHOUSES">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">UNION WORKHOUSES, ALSO KNOWN AS POOR LAW ESTABLISHMENTS, ARE PLACES WHERE PEOPLE WHO CANNOT SUPPORT THEMSELVES ARE SENT TO WORK AND LIVE</data>
+  <data key="d2">0</data>
+</node>
+<node id="THE GENTLEMAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">A PERSON DISCUSSING WITH SCROOGE ABOUT CHARITABLE CONTRIBUTIONS AND THE STATE OF PRISONS AND WORKHOUSES</data>
+  <data key="d2">0</data>
+</node>
+<node id="ABUNDANCE">
+  <data key="d0">EVENT</data>
+  <data key="d1">A CONCEPT MENTIONED BY THE GENTLEMAN AS REJOICING DURING CHRISTMAS TIME</data>
+  <data key="d2">0</data>
+</node>
+<node id="WANT">
+  <data key="d0">EVENT</data>
+  <data key="d1">WANT is a term used to describe the condition of people in need or poverty, especially as felt keenly during Christmas according to one perspective. Additionally, WANT represents the girl child shown by the Spirit of Christmas Present, symbolizing another critical societal problem.</data>
+  <data key="d2">0</data>
+</node>
+<node id="ST. DUNSTAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">ST. DUNSTAN IS MENTIONED AS A FIGURE WHO HAD INTERACTIONS WITH THE EVIL SPIRIT</data>
+  <data key="d2">0</data>
+</node>
+<node id="EVIL SPIRIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE EVIL SPIRIT IS REFERENCED AS ONE WHO WOULD HAVE BEEN AFFECTED BY ST. DUNSTAN'S ACTIONS</data>
+  <data key="d2">0</data>
+</node>
+<node id="COUNTING-HOUSE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A PLACE OF BUSINESS WHERE SCROOGE WORKS AND INTERACTS WITH HIS CLERK</data>
+  <data key="d2">0</data>
+</node>
+<node id="CAMDEN TOWN">
+  <data key="d0">GEO</data>
+  <data key="d1">THE LOCATION TO WHICH THE CLERK RUNS BACK HOME AFTER PLAYING ON CORNHILL</data>
+  <data key="d2">0</data>
+</node>
+<node id="DUTCH MERCHANT">
+  <data key="d0">PERSON</data>
+  <data key="d1">AN INDIVIDUAL MENTIONED WHO BUILT AN OLD FIREPLACE LONG AGO WHICH PAVED DUTCH TILES ILLUSTRATING BIBLICAL SCENES</data>
+  <data key="d2">0</data>
+</node>
+<node id="ANGELS">
+  <data key="d0">PERSON</data>
+  <data key="d1">ANGELIC MESSENGERS DEPICTED IN THE BIBLE SCENES ILLUSTRATED ON DUTCH TILES, DESCENDING THROUGH CLOUDS SHAPED LIKE FEATHER BEDS</data>
+  <data key="d2">0</data>
+</node>
+<node id="BELSHAZZAR">
+  <data key="d0">PERSON</data>
+  <data key="d1">A HISTORICAL FIGURE FROM THE BIBLE PORTRAYED AMONG THE VARIOUS FIGURES SHOWN ON THE DUTCH TILES WITHIN SCROOGE'S FIREPLACE</data>
+  <data key="d2">0</data>
+</node>
+<node id="ABRAHAM">
+  <data key="d0">PERSON</data>
+  <data key="d1">ANOTHER BIBLICAL CHARACTER DEPICTED IN THE SCENES ILLUSTRATED BY THE DUTCH TILES AROUND THE FIREPLACE</data>
+  <data key="d2">0</data>
+</node>
+<node id="QUEENS OF SHEBA">
+  <data key="d0">PERSON</data>
+  <data key="d1">BIBLICAL QUEENS REPRESENTED AS PART OF THE ARTWORK ON THE DUTCH FIREPLACE TILES</data>
+  <data key="d2">0</data>
+</node>
+<node id="PHARAOH'S DAUGHTERS">
+  <data key="d0">PERSON</data>
+  <data key="d1">CHARACTERS FROM THE OLD TESTAMENT FEATURED IN THE IMAGERY SURROUNDING SCROOGE'S FIREPLACE</data>
+  <data key="d2">0</data>
+</node>
+<node id="CAINS AND ABELS">
+  <data key="d0">EVENT</data>
+  <data key="d1">CONFLICT AND RECONCILIATION DEPICTED THROUGH CHARACTERS REPRESENTING CAIN AND ABEL, LIKELY PART OF A NARRATIVE OR MORAL STORY ILLUSTRATED ON TILES AROUND SCROOGE'S FIREPLACE</data>
+  <data key="d2">0</data>
+</node>
+<node id="CEMETERY OR HAUNTED HOUSE EVENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE SUPERNATURAL EVENTS TAKING PLACE IN THE ROOM SUCH AS RINGING BELLS AND DRAGGING CHAINS, INDICATING THE PRESENCE OF GHOSTLY PHENOMENA ACCORDING TO TRADITIONAL NARRATIVES ABOUT HAUNTED HOUSES</data>
+  <data key="d2">0</data>
+</node>
+<node id="JACOB MARLEY">
+  <data key="d0">PERSON</data>
+  <data key="d1">Jacob Marley is a character known for being Ebenezer Scrooge's deceased business partner. He appears to Scrooge in spirit form, particularly on Christmas Eve, as a ghostly apparition to warn and guide him about the consequences of his past actions. Jacob Marley, who was once associated with Scrooge during his lifetime, intervenes from beyond the grave by sending spirits to Scrooge after his death, indicating that he continues to play a guiding role for Scrooge even in spirit form.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS EPOCH">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE NARRATIVE CONTEXT IN WHICH SCROOGE ENCOUNTERS MARLEY'S GHOST IS ASSOCIATED WITH CHRISTMAS AND THE SUPERNATURAL EVENTS THAT OCCUR AROUND THIS TIME</data>
+  <data key="d2">0</data>
+</node>
+<node id="GHOST">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">The Ghost, likely referring to Jacob Marley or another spectral visitor, appears to Scrooge with warnings and guidance. The spirit interacts with Scrooge, describing past events involving his family and guiding him through different scenes to show him the impacts of his actions on others. This spectral visitor plays a crucial role in guiding Scrooge through his moral journey by illustrating the consequences of his behavior and decisions throughout various periods of his life.</data>
+  <data key="d2">0</data>
+</node>
+<node id="EBENEZER SCROOGE">
+  <data key="d0">PERSON</data>
+  <data key="d1">Ebenezer Scrooge is a character in Charles Dickens' "A Christmas Carol" who undergoes a significant spiritual transformation. Initially visited by the ghost of his former business partner, Jacob Marley, and subsequently by other spirits on successive Christmas Eve nights, Scrooge experiences profound revelations about his life choices and their consequences. These encounters prompt him to reconsider his actions and adopt a more compassionate outlook towards others.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS EVE">
+  <data key="d0">GEO</data>
+  <data key="d1">A SIGNIFICANT DATE IN CHRISTIAN TRADITION MARKING THE DAY BEFORE CHRISTMAS; USED HERE METAPHORICALLY FOR THE SETTING OF SCROOGE'S SUPERNATURAL ENCOUNTERS</data>
+  <data key="d2">0</data>
+</node>
+<node id="UNNAMED VISITOR">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE VISITOR APPEARS AS A SUPERNATURAL BEING GUIDING OR SHOWING SOMETHING TO SCROOGE, DESCRIBED WITH PHYSICAL AND ETHEREAL CHARACTERISTICS</data>
+  <data key="d2">0</data>
+</node>
+<node id="GHOST OF CHRISTMAS PAST">
+  <data key="d0">EVENT</data>
+  <data key="d1">The Ghost of Christmas Past is a spirit that visits Scrooge to show him significant events from his past. This visitation aims to remind Scrooge of his earlier experiences and influences his softened demeanor and thoughts on kindness.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS PAST EVENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE EVENT WHERE SCROOGE ENCOUNTERS AND INTERACTS WITH THE GHOST OF CHRISTMAS PAST</data>
+  <data key="d2">0</data>
+</node>
+<node id="THE GHOST">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE GHOST REPRESENTS AN ENTITY GUIDING SCROOGE THROUGH HIS JOURNEY, SHOWING HIM IMPORTANT LIFE MOMENTS</data>
+  <data key="d2">0</data>
+</node>
+<node id="MARKET-TOWN">
+  <data key="d0">GEO</data>
+  <data key="d1">A SMALL TOWN ALONG THE ROAD WHERE THEY ENCOUNTER BOYS AND FARMERS ON THEIR WAY HOME FROM MARKET DAY ACTIVITIES</data>
+  <data key="d2">0</data>
+</node>
+<node id="GHOST OF CHRISTMAS PRESENT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE GHOST OF CHRISTMAS PRESENT IS AN ENTITY THAT SHOWS SCROOGE VISIONS RELATED TO THE CURRENT TIME</data>
+  <data key="d2">0</data>
+</node>
+<node id="FAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">FAN is a young girl who appears in the narrative as Scrooge's sister. She comes to bring Scrooge home for Christmas, interacting with him and other characters during her visit.</data>
+  <data key="d2">0</data>
+</node>
+<node id="EBENESER SCROOGE">
+  <data key="d0">PERSON</data>
+  <data key="d1">A BOY WHOM THE SCHOOLMASTER OVERSEES TO THEIR DESTINATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCHOOLMASTER">
+  <data key="d0">PERSON</data>
+  <data key="d1">AN AUTHORITY FIGURE WHO CONVEYS SCROOGE AND HIS SISTER TO THEIR PARLOUR</data>
+  <data key="d2">0</data>
+</node>
+<node id="FEZZIWIG">
+  <data key="d0">PERSON</data>
+  <data key="d1">Fezziwig is an old gentleman and Scrooge's former employer known for his joviality during Christmas time. Old Fezziwig is a jovial boss who organizes an annual Christmas celebration for his employees. Additionally, Fezziwig is mentioned as someone who hosts domestic balls at his home with his wife, engaging in various dance moves and showing generosity towards everyone present. He is enthusiastic about these gatherings and participates enthusiastically, contributing to the festive atmosphere.</data>
+  <data key="d2">0</data>
+</node>
+<node id="EBENEZER SCROOGE YOUNGER SELF">
+  <data key="d0">PERSON</data>
+  <data key="d1">YOUNGER VERSION OF EBENEZER SCROOGE WHO WAS ONCE FEZZIWIG’S APPRENTICE</data>
+  <data key="d2">0</data>
+</node>
+<node id="DICK WILKINS">
+  <data key="d0">PERSON</data>
+  <data key="d1">DICK WILKINS IS A FELLOW-APPRENTICE AND FRIEND TO YOUNG SCROOGE, ATTACHED TO HIM</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS-EVE">
+  <data key="d0">EVENT</data>
+  <data key="d1">CHRISTMAS EVE MARKS THE CELEBRATION BEFORE CHRISTMAS DAY WHERE OLD FEZZIWIG CELEBRATES WITH HIS APPRENTICES</data>
+  <data key="d2">0</data>
+</node>
+<node id="MISS FEZZIWIG">
+  <data key="d0">PERSON</data>
+  <data key="d1">MISS FEZZIWIGS ARE THE DAUGHTERS OF MR. FEZZIWIG, INVOLVED IN THE BUSINESS AND SOCIAL EVENTS</data>
+  <data key="d2">0</data>
+</node>
+<node id="HOUSEMAID">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE HOUSEMAID IS PART OF THE GROUP OF YOUNG PEOPLE INVITED TO THE CHRISTMAS CELEBRATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="BAKER">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A COUSIN OF THE HOUSEMAID WHO ALSO ATTENDS THE CELEBRATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="COOK">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE COOK, A FEMALE EMPLOYEE AT FEZZIWIG'S WAREHOUSE</data>
+  <data key="d2">0</data>
+</node>
+<node id="MILKMAN">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">MILKMAN IS DESCRIBED AS THE BROTHER’S FRIEND AND COMES TO CELEBRATE</data>
+  <data key="d2">0</data>
+</node>
+<node id="BOY FROM OVER THE WAY">
+  <data key="d0">PERSON</data>
+  <data key="d1">A BOY WHO WORKS FOR SOMEONE ELSE BUT ATTENDS THE CHRISTMAS CELEBRATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="GIRL FROM NEXT DOOR BUT ONE">
+  <data key="d0">PERSON</data>
+  <data key="d1">A GIRL INVOLVED IN AN INCIDENT WITH HER MISTRESS, ATTENDING THE EVENT</data>
+  <data key="d2">0</data>
+</node>
+<node id="OLD FEZZIWIG">
+  <data key="d0">PERSON</data>
+  <data key="d1">OLD FEZZIWIG, LIKELY REFERRING TO THE SAME PERSON DESCRIBED EARLIER, IS NOTED FOR BEING AN ACTIVE PARTICIPANT IN SOCIAL EVENTS SUCH AS DANCING</data>
+  <data key="d2">0</data>
+</node>
+<node id="MRS. FEZZIWIG">
+  <data key="d0">PERSON</data>
+  <data key="d1">MRS. FEZZIWIG IS MENTIONED ALONGSIDE HER HUSBAND AS A CHARACTER INVOLVED IN ORGANIZING AND ATTENDING SOCIAL GATHERINGS AT THEIR HOME</data>
+  <data key="d2">0</data>
+</node>
+<node id="DICK">
+  <data key="d0">PERSON</data>
+  <data key="d1">DICK IS ONE OF THE TWO APPRENTICES MENTIONED, EXPRESSING GRATITUDE FOR FEZZIWIG</data>
+  <data key="d2">0</data>
+</node>
+<node id="MOTHER">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE MOTHER IS ENJOYING THE NOISY SCENE WITH HER CHILDREN IN THE ROOM</data>
+  <data key="d2">0</data>
+</node>
+<node id="DAUGHTER">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE DAUGHTER IS PART OF THE GROUP OF CHILDREN PLAYING BOISTEROUSLY AND LATER PARTICIPATES IN GREETING THEIR FATHER</data>
+  <data key="d2">0</data>
+</node>
+<node id="BELLE">
+  <data key="d0">PERSON</data>
+  <data key="d1">BELLE IS SCROOGE'S FORMER FIANCÉE, NOW MARRIED AND LIVING HAPPILY</data>
+  <data key="d2">0</data>
+</node>
+<node id="SPIRIT (TIMELINE)">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE SPIRIT FROM THE TEXT REFERS TO SUPERNATURAL ENTITIES VISITING SCROOGE AT SPECIFIC TIMES, EACH WITH A PURPOSE RELATED TO HIS PAST, PRESENT, OR FUTURE</data>
+  <data key="d2">0</data>
+</node>
+<node id="GROCERS'">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE GROCERS' IS A MARKET OR SHOP WHERE GOODS SUCH AS TEA, COFFEE, SPICES, AND FRUITS ARE SOLD</data>
+  <data key="d2">0</data>
+</node>
+<node id="CUSTOMERS">
+  <data key="d0">PERSON</data>
+  <data key="d1">CUSTOMERS ARE INDIVIDUALS WHO PURCHASE GOODS FROM THE GROCERS', SHOWING EXCITEMENT AND EAGERNESS DURING THE CHRISTMAS SEASON</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS DAY EVENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">CHRISTMAS DAY EVENT is a significant day when people visit shops to buy festive items and attend church services. It also marks a pivotal moment in literature as Ebenezer Scrooge visits his relatives, signifying a change in his attitude towards life and relationships.</data>
+  <data key="d2">0</data>
+</node>
+<node id="THE SPIRIT">
+  <data key="d0">ENTITY</data>
+  <data key="d1">The Spirit is a supernatural entity that guides Ebenezer Scrooge through various scenes related to his past and present actions, reflecting on the essence of Christmas Day and the importance of goodwill and charity towards others.</data>
+  <data key="d2">0</data>
+</node>
+<node id="SPIRIT OF CHRISTMAS PRESENT">
+  <data key="d0">PERSON</data>
+  <data key="d1">The Spirit of Christmas Present is guiding Scrooge through the present time events, showing him scenes related to his clerk and others. Additionally, this spirit also reveals the harsh realities of ignorance and want, particularly in relation to two miserable children.</data>
+  <data key="d2">0</data>
+</node>
+<node id="BOB CRATCHIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">Bob Cratchit is Scrooge's clerk who earns fifteen shillings a week and lives in a modest home with his family. He is married to Mrs. Cratchit, and they have several children including Peter Cratchit and Martha, along with two other unnamed children. As a father, Bob appears disappointed when his daughter Martha does not arrive as expected on Christmas Day. Bob regards his wife's cooking as successful and is described as having a family that engages in quiet activities around the fire. He visits Tiny Tim’s resting place on the day of the text, reflecting his concern for those less fortunate. Additionally, Bob arrives late to work one morning and receives unexpected news regarding an increase in his salary from Scrooge. This improvement in conditions is seen as beneficial to Bob Cratchit.</data>
+  <data key="d2">0</data>
+</node>
+<node id="BELINDA CRATCHIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">BELINDA CRATCHIT IS ONE OF BOB CRATCHIT’S DAUGHTERS, ASSISTING HER MOTHER IN LAYING THE CLOTH FOR DINNER</data>
+  <data key="d2">0</data>
+</node>
+<node id="MASTER PETER CRATCHIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">MASTER PETER CRATCHIT IS BOB'S SON WHO HELPS WITH PREPARING FOOD, PLUNGING A FORK INTO THE SAUCEPAN OF POTATOES</data>
+  <data key="d2">0</data>
+</node>
+<node id="MARTHA">
+  <data key="d0">PERSON</data>
+  <data key="d1">Martha is one of Bob and his wife's daughters who was late in coming home for Christmas preparations. She is also mentioned as one of the older children in the Cratchit family who helps by dusting hot plates before the meal. Additionally, Martha is described as a poor apprentice at a milliner's shop, working long hours.</data>
+  <data key="d2">0</data>
+</node>
+<node id="PETER CRATCHIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">PETER CRATCHIT IS ONE OF BOB AND HIS WIFE'S SONS, KNOWN FOR WEARING HIS FATHER'S COLLAR ON SPECIAL OCCASIONS</data>
+  <data key="d2">0</data>
+</node>
+<node id="MARSHALL CRATCHIT">
+  <data key="d0">MARTHA CRATCHIT</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">0</data>
+</node>
+<node id="VISIONARY RELIGIOUS FIGURE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">NOT EXPLICITLY NAMED BUT IMPLIED IN BOB'S STATEMENT ABOUT WHO MIGHT MAKE LAME BEGGARS WALK AND BLIND MEN SEE, SUGGESTING A RELIGIOUS OR SPIRITUAL CONTEXT</data>
+  <data key="d2">0</data>
+</node>
+<node id="BOB">
+  <data key="d0">PERSON</data>
+  <data key="d1">Bob Cratchit is the head of his family and is mentioned in the passage as one of the Cratchits. He sits at the table with his family during their dinner, holding Tiny Tim beside him. Bob faces some distress but finds reconciliation and joy after an encounter with Mr. Scrooge's nephew. Additionally, he often discusses Tiny Tim’s virtues, highlighting the young boy's positive attributes within the family.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MASTER PETER">
+  <data key="d0">PERSON</data>
+  <data key="d1">Master Peter is a young boy who is one of the Cratchit children. He helps prepare for the Christmas dinner by fetching the goose and mashing potatoes. Despite his youthful responsibilities, Master Peter dreams about becoming a man of business and receiving a high income.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MISS BELINDA">
+  <data key="d0">PERSON</data>
+  <data key="d1">Miss Belinda is mentioned as one of the Cratchit children, likely a girl. She assists with preparing for Christmas dinner by sweetening apple sauce and changing plates during the meal preparation.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MRS. CRATCHIT">
+  <data key="d0">PERSON</data>
+  <data key="d1">Mrs. Cratchit is the wife of Bob Cratchit and a supportive member of their household. She is responsible for preparing meals such as the Christmas pudding and often discusses Peter's future prospects with her family.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CRATCHITS FAMILY">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE CRATCHITS FAMILY, INCLUDING BOB AND MRS. CRATCHIT, CELEBRATE CHRISTMAS WITH A LARGE MEAL AND GATHER AROUND THE HEARTH AFTER DINNER</data>
+  <data key="d2">0</data>
+</node>
+<node id="BACK-YARD">
+  <data key="d0">GEO</data>
+  <data key="d1">THE BACK-YARD OF THE CRATCHITS' HOME, WHICH IS MENTIONED AS BEING SECURED TO PREVENT THEFT</data>
+  <data key="d2">0</data>
+</node>
+<node id="COUNTESS AND A LORD">
+  <data key="d0">PERSON</data>
+  <data key="d1">THESE ARE INDIVIDUALS OF NOBLE STATUS WHOM MARTHA ENCOUNTERED SOME DAYS BEFORE THE NARRATIVE TAKES PLACE</data>
+  <data key="d2">0</data>
+</node>
+<node id="MINERS">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">MINERS FORM A COMMUNITY THAT LABOR IN THE BOWELS OF THE EARTH</data>
+  <data key="d2">0</data>
+</node>
+<node id="SPIRIT">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">The Spirit guides Scrooge through different locations and shows him various scenes, providing insights about his life and future. This guiding spirit appears as an entity representing a supernatural force or guardian spirit, revealing visions of people affected by Scrooge's actions or inactions. Through these encounters, the Spirit aims to illuminate Scrooge's past decisions and their consequences on others, encouraging him towards self-reflection and redemption.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MOOR">
+  <data key="d0">GEO</data>
+  <data key="d1">A BARREN WASTELAND WHERE MINERS WORK, WITH LITTLE VEGETATION EXCEPT MOSS, FURZE AND COARSE GRASS</data>
+  <data key="d2">0</data>
+</node>
+<node id="LONELY LIGHTHOUSE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A SOLITARY LIGHTHOUSE BUILT UPON A REEF OF SUNKEN ROCKS FAR FROM SHORE, SURROUNDED BY STORM-BIRDS AND SEAWEED</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIECE">
+  <data key="d0">PERSON</data>
+  <data key="d1">The niece of Scrooge is known for her beauty and strong character. She is married to Scrooge's nephew and often discusses her uncle with other family members.</data>
+  <data key="d2">0</data>
+</node>
+<node id="FRED">
+  <data key="d0">PERSON</data>
+  <data key="d1">FRED is Scrooge's nephew who was initially surprised by his uncle's visit but welcomed him nonetheless. FRED often criticizes Scrooge for his behavior and actively participates in and leads the guessing game about Uncle Scrooge. Despite the initial surprise, FRED has a complex relationship with Scrooge, showing both criticism and engagement in family activities.</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIECES' SISTERS">
+  <data key="d0">PERSON</data>
+  <data key="d1">THESE ARE THE SISTERS OF SCROOGE'S NIECE, THEY ALSO DISCUSS THEIR UNCLE</data>
+  <data key="d2">0</data>
+</node>
+<node id="TOPPER">
+  <data key="d0">PERSON</data>
+  <data key="d1">TOPPER is a bachelor who actively participates in dinner conversations about marriage and bachelorhood. During social games, TOPPER pretends to be blind but strategically targets Scrooge's plump sister during a game of Blindman's Buff.</data>
+  <data key="d2">0</data>
+</node>
+<node id="BOARDING-SCHOOL">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A SCHOOL WHERE YOUNG EBENEZER SCROOGE WAS EDUCATED, POSSIBLY INFLUENCING SOME OF HIS CHARACTER TRAITS</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS PRESENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE GHOST OF CHRISTMAS PRESENT ORGANIZES GAMES LIKE BLINDMAN'S BUFF, SHOWING INTERACTIONS AMONG CHARACTERS DURING THE HOLIDAY SEASON</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCROOGE'S NIEPHW">
+  <data key="d0">PERSON</data>
+  <data key="d1">SCROOGE'S NEPHEW PARTICIPATES IN GAMES AND IS INVOLVED WITH TOPPER IN A GAME SETUP TO CATCH SCROOPE'S PLUMP SISTER</data>
+  <data key="d2">0</data>
+</node>
+<node id="PLUMP SISTER IN LACE TUCKER">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE PLUMP SISTER IS ONE OF THE CHARACTERS PARTICIPATING IN BLINDMAN'S BUFF, BEING SPECIFICALLY TARGETED BY TOPPER</data>
+  <data key="d2">0</data>
+</node>
+<node id="LONDON">
+  <data key="d0">GEO</data>
+  <data key="d1">In the story set in London, significant positive changes occur in the city due to Scrooge's transformation. London is mentioned as the place where an animal lives and walks around freely, which adds to the vivid portrayal of the environment Scrooge experiences after his change of heart. This description highlights both the setting and the impact of Scrooge’s personal evolution on the city itself.</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS CELEBRATION">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE CHRISTMAS CELEBRATION IS A GATHERING WHERE SCROOGE'S RELATIVES ENGAGE IN PLAYFUL GUESSING GAMES ABOUT HIM</data>
+  <data key="d2">0</data>
+</node>
+<node id="IGNORANCE">
+  <data key="d0">EVENT</data>
+  <data key="d1">REPRESENTS THE BOY CHILD SHOWN BY THE SPIRIT OF CHRISTMAS PRESENT, SYMBOLIZING A SIGNIFICANT SOCIAL ISSUE</data>
+  <data key="d2">0</data>
+</node>
+<node id="GHOST OF CHRISTMAS YET TO COME">
+  <data key="d0">EVENT</data>
+  <data key="d1">The Ghost of Christmas Yet to Come is a spectral entity that shows Scrooge future events, depicted as a silent and ominous figure draped in black. This ghost guides Scrooge through visions, revealing the potential consequences of his current actions and behaviors. Through these revelations, Scrooge gains insight into his impending fate if he continues on his present path.</data>
+  <data key="d2">0</data>
+</node>
+<node id="SCRATCH">
+  <data key="d0">PERSON</data>
+  <data key="d1">"SCRATCH IS A REFERENCE TO THE DEVIL OR AN INDIVIDUAL WITH A MALEVOLENT REPUTATION, AS MENTIONED IN THE CONVERSATION ABOUT SOMEONE'S DEATH"</data>
+  <data key="d2">0</data>
+</node>
+<node id="PHANTOM">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">The Phantom represents a guiding spirit for Scrooge in his journey, serving to lead him through various encounters and provide insights or explanations that help him reflect on his life and surroundings.</data>
+  <data key="d2">0</data>
+</node>
+<node id="BUSY SCENE">
+  <data key="d0">EVENT</data>
+  <data key="d1">A BUSTLING URBAN AREA WHERE PEOPLE ARE ACTIVE AND ENGAGED IN VARIOUS ACTIVITIES BEFORE THEY LEAVE FOR THE OBSCURE PART OF TOWN</data>
+  <data key="d2">0</data>
+</node>
+<node id="OBSCURE PART OF TOWN">
+  <data key="d0">GEO</data>
+  <data key="d1">THIS IS A POOR NEIGHBORHOOD CHARACTERIZED BY FOUL WAYS, NARROW STREETS, AND SHOPS AND HOUSES IN DISREPAIR, FULL OF HALF-NAKED, DRUNKEN, SLIPSHOD, UGLY PEOPLE, WITH MANY ALLEYS AND ARCHWAYS THAT ARE DIRTY AND SMELLY</data>
+  <data key="d2">0</data>
+</node>
+<node id="LOW-BROWED BEETLING SHOP">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A SHOP WHERE VARIOUS KINDS OF WASTE MATERIALS SUCH AS IRON, OLD RAGS, BOTTLES, BONES, AND OFFAL ARE COLLECTED AND SOLD. THE PLACE IS KNOWN FOR ITS UNSEEMLY CONDITIONS AND HAS A BAD REPUTATION</data>
+  <data key="d2">0</data>
+</node>
+<node id="GREY-HAIRED RASCAL">
+  <data key="d0">PERSON</data>
+  <data key="d1">AN ELDERLY MAN WHO RUNS THE SHOP IN THE OBSCURE PART OF TOWN WHERE VARIOUS MATERIALS ARE BOUGHT AND SOLD; HE SMOKES HIS PIPE BY A CHARCOAL STOVE INSIDE THE SHOP</data>
+  <data key="d2">0</data>
+</node>
+<node id="OLD JOE">
+  <data key="d0">PERSON</data>
+  <data key="d1">Old Joe is an elderly man who owns and operates a shop where others frequently visit unexpectedly. He is also known for evaluating items taken from deceased persons to determine their monetary value.</data>
+  <data key="d2">0</data>
+</node>
+<node id="MRS. DILBER">
+  <data key="d0">PERSON</data>
+  <data key="d1">MRS. DILBER IS REFERRED TO AS ONE OF THE INDIVIDUALS ENTERING OLD JOE'S ESTABLISHMENT, LIKELY INVOLVED IN SOME FORM OF ILLICIT ACTIVITY GIVEN THE CONTEXT</data>
+  <data key="d2">0</data>
+</node>
+<node id="LAUNDRESS">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE LAUNDRESS IS ANOTHER INDIVIDUAL MENTIONED WHO ENTERS OLD JOE'S PLACE AND PARTICIPATES IN A CONVERSATION ABOUT TAKING CARE OF ONESELF DESPITE OTHERS' ACTIONS OR LACK THEREOF</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHARWOMAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE CHARWOMAN IS THE FIRST PERSON TO ENTER OLD JOE'S ESTABLISHMENT, NOTED FOR BEING SURPRISED BY THE ENCOUNTER WITH OTHERS THERE</data>
+  <data key="d2">0</data>
+</node>
+<node id="UNDERTAKER'S MAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">UNDERTAKER'S MAN IS THE THIRD INDIVIDUAL MENTIONED WHO JOINS IN THE CONVERSATION AT OLD JOE'S PLACE WITHOUT PRIOR ARRANGEMENT</data>
+  <data key="d2">0</data>
+</node>
+<node id="A MOTHER AND HER CHILDREN">
+  <data key="d0">PERSON</data>
+  <data key="d1">A FAMILY WAITING FOR NEWS ABOUT THEIR FINANCIAL SITUATION, LIKELY RELATED TO A MAN'S DEATH THAT COULD IMPACT THEM SIGNIFICANTLY</data>
+  <data key="d2">0</data>
+</node>
+<node id="A MAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE FATHER IN THE FAMILY WHO RETURNS HOME WITH NEWS ABOUT THEIR FINANCIAL STATUS; DESCRIBED AS CAREWORN AND HAVING MIXED EMOTIONS UPON DELIVERING BAD NEWS</data>
+  <data key="d2">0</data>
+</node>
+<node id="CRATCHIT'S FAMILY">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE CRATCHIT FAMILY, INCLUDING BOB AND MRS. CRATCHIT, ARE A CLOSE-KNIT GROUP SUPPORTING EACH OTHER AFTER THE LOSS OF TINY TIM</data>
+  <data key="d2">0</data>
+</node>
+<node id="MR. SCROOGE'S NEPHEW">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE NEPHEW OF MR. SCROOGE WHO SHOWED EXTRAORDINARY KINDNESS TO BOB CRATCHIT</data>
+  <data key="d2">0</data>
+</node>
+<node id="PETER">
+  <data key="d0">PERSON</data>
+  <data key="d1">PETER IS LIKELY ONE OF BOB AND MRS. CRATCHIT’S CHILDREN, MENTIONED IN DISCUSSIONS ABOUT HIS POTENTIAL INDEPENDENCE</data>
+  <data key="d2">0</data>
+</node>
+<node id="SPIRIT OF TINY TIM">
+  <data key="d0">EVENT</data>
+  <data key="d1">A SPIRITUAL ESSENCE OF TINY TIM THAT GUIDES AND REMINDS OTHERS OF HIS VIRTUES</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHURCHYARD">
+  <data key="d0">GEO</data>
+  <data key="d1">A CHURCHYARD MENTIONED WHERE GRAVES ARE LOCATED, SPECIFICALLY ONE WITH A NEGLECTED GRAVE BEARING THE NAME EBENEZER SCROOGES</data>
+  <data key="d2">0</data>
+</node>
+<node id="SPIRIT OF CHRISTMAS FUTURE">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE SPIRIT OF CHRISTMAS FUTURE IS ONE OF THE THREE SPIRITS THAT VISIT SCROOGE TO SHOW HIM DIFFERENT ASPECTS OF HIS LIFE AND POTENTIAL FUTURE</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS TIME">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE EVENT MARKING A PERIOD OF CELEBRATION AND GOODWILL CENTERED AROUND THE HOLIDAY SEASON IN WHICH SCROOGE UNDERGOES REDEMPTION THROUGH VISIONS GIVEN BY SPIRITS</data>
+  <data key="d2">0</data>
+</node>
+<node id="BOY">
+  <data key="d0">PERSON</data>
+  <data key="d1">A YOUNG BOY DRESSED IN SUNDAY CLOTHES WHO INTERACTS WITH SCROOGE TO HELP HIM BUY A TURKEY FOR CHRISTMAS</data>
+  <data key="d2">0</data>
+</node>
+<node id="POULTERER'S">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE POULTERER'S IS AN ESTABLISHMENT MENTIONED WHERE PRIZE TURKEYS ARE SOLD, WHICH SCROOGE ASKS THE BOY TO PURCHASE ONE FROM</data>
+  <data key="d2">0</data>
+</node>
+<node id="PORTLY GENTLEMAN">
+  <data key="d0">PERSON</data>
+  <data key="d1">THE PORTLY GENTLEMAN VISITED SCROOGE'S COUNTING-HOUSE THE PREVIOUS DAY AND HAD AN ENCOUNTER WITH HIM WHICH WAS NOT INITIALLY WELL-RECEIVED BUT TURNED POSITIVE WHEN THEY MET AGAIN</data>
+  <data key="d2">0</data>
+</node>
+<node id="CHRISTMAS DAY DINING EVENT">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE DINING EVENT AT FRED'S HOUSE WHERE SCROOGE REUNITES WITH HIS FAMILY AFTER CHANGING HIS ATTITUDE TOWARDS LIFE AND PEOPLE</data>
+  <data key="d2">0</data>
+</node>
+<node id="FOUNDATION OR PGLAF">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE FOUNDATION OR THE PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION OWNS A COMPILATION COPYRIGHT IN THE COLLECTION OF PROJECT GUTENBERG ELECTRONIC WORKS</data>
+  <data key="d2">0</data>
+</node>
+<node id="UNITED STATES">
+  <data key="d0">GEO</data>
+  <data key="d1">The United States is a country where individual works might be unprotected by copyright law under certain conditions. Specifically, in the context of Project Gutenberg's eBooks, these works are freely distributed without cost or most restrictions within its borders and in many parts of the world, provided that all references to Project Gutenberg are removed. The U.S. copyright laws do not claim a right to prevent copying, distributing, performing, displaying, or creating derivative works based on such works under these conditions.</data>
+  <data key="d2">0</data>
+</node>
+<node id="U.S.">
+  <data key="d0">GEO</data>
+  <data key="d1">THE U.S. REFERS TO THE UNITED STATES OF AMERICA, WHICH HAS ITS OWN COPYRIGHT LAWS AFFECTING DISTRIBUTION OF LITERARY WORKS</data>
+  <data key="d2">0</data>
+</node>
+<node id="FOUNDATION">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">THE FOUNDATION, LIKELY REFERRING TO PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION, IS INVOLVED IN MANAGING AND PROTECTING THE PROJECT GUTENBERG TRADEMARK AND ELECTRONIC WORK DISTRIBUTION UNDER AGREEMENTS LIKE 1.F.2 AND 1.F.3</data>
+  <data key="d2">0</data>
+</node>
+<node id="PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">The Project Gutenberg Literary Archive Foundation was established in 2001 as a non-profit 501(c)(3) organization to ensure the long-term sustainability of Project Gutenberg™ and its digital library. The foundation manages donations and supports the production of new eBooks, thereby playing a crucial role in preserving and expanding access to literary works through digital means.</data>
+  <data key="d2">0</data>
+</node>
+<node id="VOLUNTEERS">
+  <data key="d0">PERSON</data>
+  <data key="d1">VOLUNTEERS ARE INDIVIDUALS WHO CONTRIBUTE THEIR TIME AND EFFORT TO SUPPORT PROJECT GUTENBERG'S MISSION, WORKING ALONGSIDE FINANCIAL DONORS TO HELP MAINTAIN AND EXPAND THE COLLECTION OF FREELY AVAILABLE ELECTRONIC WORKS</data>
+  <data key="d2">0</data>
+</node>
+<node id="MISSISSIPPI">
+  <data key="d0">GEO</data>
+  <data key="d1">MISSISSIPPI IS A U.S. STATE WHERE THE PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION WAS LEGALLY ORGANIZED AS A NON-PROFIT ENTITY</data>
+  <data key="d2">0</data>
+</node>
+<node id="SALT LAKE CITY">
+  <data key="d0">GEO</data>
+  <data key="d1">SALT LAKE CITY, LOCATED IN UTAH (UT), HOUSES THE BUSINESS OFFICE OF THE PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION AT 809 NORTH 1500 WEST</data>
+  <data key="d2">0</data>
+</node>
+<node id="FOUNDATION'S WEBSITE AND OFFICIAL PAGE">
+  <data key="d0">EVENT</data>
+  <data key="d1">THE OFFICIAL WEBSITE OF PROJECT GUTENBERG WHERE INFORMATION ABOUT THE FOUNDATION CAN BE FOUND AND CONTACT DETAILS ARE PROVIDED</data>
+  <data key="d2">0</data>
+</node>
+<node id="PROFESSOR MICHAEL S. HART">
+  <data key="d0">PERSON</data>
+  <data key="d1">MICHAEL S. HART IS THE ORIGINATOR OF THE PROJECT GUTENBERG CONCEPT, A LIBRARY DEDICATED TO FREELY DISTRIBUTING ELECTRONIC WORKS</data>
+  <data key="d2">0</data>
+</node>
+<node id="MICHAEL S. HART">
+  <data key="d0">PERSON</data>
+  <data key="d1">PROFESSOR MICHAEL S. HART ORIGINATED THE CONCEPT OF PROJECT GUTENBERG AND HAS BEEN INVOLVED IN PRODUCING AND DISTRIBUTING EBOOKS FOR FORTY YEARS</data>
+  <data key="d2">0</data>
+</node>
+<edge source="PROJECT GUTENBERG" target="CHARLES DICKENS">
+  <data key="d3">8.0</data>
+  <data key="d4">CHARLES DICKENS'S WORKS, INCLUDING "A CHRISTMAS CAROL," ARE DISTRIBUTED BY PROJECT GUTENBERG</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="FOUNDATION OR PGLAF">
+  <data key="d3">8.0</data>
+  <data key="d4">PROJECT GUTENBERG OPERATES UNDER THE TERMS SET FORTH BY THE FOUNDATION, WHICH OWNS THE COMPILATION RIGHTS FOR PROJECT GUTENBERG ELECTRONIC WORKS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="UNITED STATES">
+  <data key="d3">11.0</data>
+  <data key="d4">"PROJECT GUTENBERG" MENTIONS THAT IF A WORK IS UNPROTECTED IN THE UNITED STATES, USERS THERE HAVE CERTAIN FREEDOMS REGARDING COPYING AND DISTRIBUTION OF SUCH WORKS.
+THE LEGAL CONDITIONS FOR USING PROJECT GUTENBERG'S WORKS WITHOUT RESTRICTIONS ARE SPECIFIED IN THE UNITED STATES</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="U.S.">
+  <data key="d3">7.0</data>
+  <data key="d4">PROJECT GUTENBERG OPERATES WITHIN U.S. LEGAL FRAMEWORKS THAT INCLUDE COPYRIGHT LAW AFFECTING ITS COLLECTION OF WORKS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="FOUNDATION">
+  <data key="d3">15.0</data>
+  <data key="d4">THE FOUNDATION IS RESPONSIBLE FOR MANAGING THE PROJECT GUTENBERG TRADEMARK AND ENSURES COMPLIANCE WITH AGREEMENTS REGARDING DISTRIBUTION OF ELECTRONIC WORKS
+THE FOUNDATION IS INVOLVED IN THE OPERATIONS OF PROJECT GUTENBERG, PROVIDING SUPPORT FOR ITS MISSION OF FREE DISTRIBUTION OF ELECTRONIC WORKS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION">
+  <data key="d3">16.0</data>
+  <data key="d4">THE PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION WAS CREATED TO PROVIDE A SECURE AND PERMANENT FUTURE FOR PROJECT GUTENBERG™
+PROJECT GUTENBERG WORKS CLOSELY WITH THE LITERARY ARCHIVE FOUNDATION TO MANAGE DONATIONS AND PRODUCE NEW EBOOKS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="FOUNDATION'S WEBSITE AND OFFICIAL PAGE">
+  <data key="d3">8.0</data>
+  <data key="d4">THE OFFICIAL WEBSITE AND PAGE PROVIDE INFORMATION ABOUT DONATIONS AND CONTACT DETAILS FOR PROJECT GUTENBERG</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="PROFESSOR MICHAEL S. HART">
+  <data key="d3">10.0</data>
+  <data key="d4">PROFESSOR HART IS THE CREATOR OF THE CONCEPT BEHIND PROJECT GUTENBERG, WHICH AIMS TO DISTRIBUTE ELECTRONIC WORKS FREELY</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG" target="MICHAEL S. HART">
+  <data key="d3">9.0</data>
+  <data key="d4">PROFESSOR MICHAEL S. HART ORIGINATED THE CONCEPT OF PROJECT GUTENBERG AND HAS BEEN INSTRUMENTAL IN ITS DEVELOPMENT FOR FORTY YEARS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="GEORGE ALFRED WILLIAMS">
+  <data key="d3">7.0</data>
+  <data key="d4">GEORGE ALFRED WILLIAMS ILLUSTRATED THE BOOK "A CHRISTMAS CAROL" WRITTEN BY CHARLES DICKENS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="CHRISTMAS CAROL">
+  <data key="d3">9.0</data>
+  <data key="d4">CHARLES DICKENS WROTE A CHRISTMAS CAROL WHICH WAS PUBLISHED IN 1843 AND PRAISED BY THACKERAY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="THE CHRISTMAS BOOKS">
+  <data key="d3">9.0</data>
+  <data key="d4">CHARLES DICKENS WROTE A SERIES OF FIVE BOOKS COLLECTIVELY KNOWN AS "THE CHRISTMAS BOOKS," WITH "A CHRISTMAS CAROL" BEING ONE OF THEM.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHARLES DICKENS" target="SCROOGE">
+  <data key="d3">8.0</data>
+  <data key="d4">CHARLES DICKENS CREATED AND WROTE ABOUT EBENEZER SCROOGE IN HIS LITERARY WORK, "A CHRISTMAS CAROL", WHICH HIGHLIGHTS THE TRANSFORMATIVE JOURNEY OF A CHARACTER FROM MISERLINESS TO REDEMPTION.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="NEW YORK" target="THE PLATT &amp; PECK CO.">
+  <data key="d3">1.0</data>
+  <data key="d4">THE PLATT &amp; PECK COMPANY IS BASED IN NEW YORK AND PUBLISHED A CHRISTMAS CAROL</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHRISTMAS CAROL" target="JOHN LEECH">
+  <data key="d3">7.0</data>
+  <data key="d4">JOHN LEECH PROVIDED THE FIRST ILLUSTRATIONS FOR CHARLES DICKENS' "A CHRISTMAS CAROL", MAKING THE CHARACTERS COME TO LIFE VISUALLY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHRISTMAS CAROL" target="TINY TIM">
+  <data key="d3">8.0</data>
+  <data key="d4">TINY TIM IS A CHARACTER IN CHARLES DICKENS' A CHRISTMAS CAROL, FAMOUS FOR HIS POIGNANT AND MEMORABLE LINE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="BOB CRATCHIT">
+  <data key="d3">40.0</data>
+  <data key="d4">TINY TIM IS BOB’S YOUNGEST CHILD CARRIED BY HIS FATHER ON SPECIAL OCCASIONS INDICATING CLOSE FAMILIAL TIES
+BOB IS CONCERNED FOR TINY TIM’S WELL-BEING AND HOPES HE GROWS STRONGER AND HEALTHIER; BOB SHARES WITH HIS FAMILY THE BELIEF THAT TINY TIM’S CONDITION COULD INSPIRE PEOPLE TO REMEMBER A FIGURE WHO HELPS THOSE IN NEED.
+BOB CRATCHIT DEEPLY CARES ABOUT HIS SON TINY TIM WHO IS FRAIL AND ILL
+TINY TIM IS PART OF BOB CRATCHIT'S HOUSEHOLD, LIKELY A CHILD WHO MAKES AN IMPRESSION ON SCROOGE THROUGH THIS EXPERIENCE
+BOB CRATCHIT DEEPLY LOVED HIS SON TINY TIM WHO PASSED AWAY; HE VISITS HIS RESTING PLACE ON SUNDAYS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="CHRISTMAS DAY">
+  <data key="d3">7.0</data>
+  <data key="d4">TINY TIM'S PRESENCE ON CHRISTMAS DAY, DESPITE HIS PHYSICAL CHALLENGES, IS SIGNIFICANT AS IT EVOKES A SENSE OF HOPE AND REFLECTION ABOUT MIRACLES OR DIVINE INTERVENTION RELATED TO HEALING AND SUPPORT FOR THE LESS FORTUNATE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="COUNTESS AND A LORD">
+  <data key="d3">2.0</data>
+  <data key="d4">TINY TIM'S SINGING ABOUT A LOST CHILD TRAVELING IN THE SNOW EVOKES IMAGERY OF NOBILITY (COUNTESS AND LORD) THAT MARTHA MENTIONS SEEING, CONNECTING THE LOWER-CLASS CHARACTERS TO NOBLE FIGURES THROUGH SHARED STORYTELLING.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="CRATCHIT'S FAMILY">
+  <data key="d3">8.0</data>
+  <data key="d4">THE ENTIRE CRATCHIT FAMILY MOURNS THE LOSS OF TINY TIM AND SUPPORTS EACH OTHER, ESPECIALLY BOB, AFTER HIS PASSING.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="BOB">
+  <data key="d3">9.0</data>
+  <data key="d4">"BOB SPEAKS FONDLY OF HIS CHILD, TINY TIM, INDICATING THEIR CLOSE RELATIONSHIP WHICH HAS LED HIM TO FEEL RECONCILED AFTER SPEAKING WITH MR. SCROOGE'S NEPHEW."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="PETER">
+  <data key="d3">7.0</data>
+  <data key="d4">PETER IS PART OF THE SAME FAMILY THAT REMEMBERS TINY TIM FONDLY, IMPLYING HE GREW UP ALONGSIDE HIM.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TINY TIM" target="SCROOGE">
+  <data key="d3">9.0</data>
+  <data key="d4">SCROOGE ACTS AS A SECOND FATHER TO TINY TIM, ENSURING HIS WELL-BEING AFTER THE TRANSFORMATION.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="MARLEY'S GHOST">
+  <data key="d3">19.0</data>
+  <data key="d4">THE GHOST OF JACOB MARLEY APPEARS TO EBENEZER SCROOGE AS PART OF DICKENS'S NARRATIVE DEVICE FOR ALTERING SCROOGE'S OUTLOOK AND BEHAVIOR.
+SCROOGE ENCOUNTERS MARLEY'S GHOST, WHO SHOWS HIM THE CONSEQUENCES OF HIS PAST ACTIONS AND FUTURE OUTCOMES</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="MARLEY">
+  <data key="d3">38.0</data>
+  <data key="d4">SCROOGE IS MARLEY'S BUSINESS PARTNER, EXECUTOR, FRIEND, AND MOURNER. HE SIGNS THE REGISTER FOR MARLEY'S BURIAL.
+MARLEY WAS SCROOGE'S DECEASED BUSINESS PARTNER, EXECUTOR, ADMINISTRATOR, AND FRIEND. THE RELATIONSHIP BETWEEN THEM WAS VERY CLOSE BOTH PERSONALLY AND PROFESSIONALLY.
+SCROOGE AND MARLEY WERE ONCE BUSINESS PARTNERS UNTIL MARLEY’S DEATH SEVEN YEARS AGO; THEIR RELATIONSHIP SHAPED SCROOGE'S CURRENT CHARACTER
+SCROOGE AND MARLEY WERE ONCE IN BUSINESS TOGETHER UNTIL MARLEY'S DEATH SEVEN YEARS AGO; THE APPEARANCE OF MARLEY'S FACE ON THE KNOCKER SUGGESTS A LINGERING CONNECTION BETWEEN THEM
+"SCROOGE ENCOUNTERS MARLEY'S GHOST OR SPIRIT SEVEN YEARS AFTER HIS DEATH, WHICH LEADS HIM TO REFLECT ON PAST AND PRESENT EXPERIENCES INVOLVING MARLEY"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE AND MARLEY">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE RUNS THE FIRM UNDER HIS NAME AFTER MARLEY'S DEATH, CONTINUING THEIR PARTNERSHIP ALBEIT IN MEMORY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S COUNTING-HOUSE">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE OWNS AND OPERATES HIS BUSINESS FROM THE COUNTING-HOUSE, WHERE HE ALSO KEEPS CONTROL OVER HIS CLERK.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S NEPHEW">
+  <data key="d3">22.0</data>
+  <data key="d4">THE NEPHEW VISITS SCROOGE ON CHRISTMAS DAY TO WISH HIM A MERRY HOLIDAY DESPITE SCROOGE'S DISMISSIVE ATTITUDE TOWARDS THE SEASON.
+SCROOGE'S NEPHEW IS CRITICAL OF SCROOGE’S VIEWS ON CHRISTMAS AND OFTEN ENGAGES IN MERRY-MAKING, CONTRASTING WITH SCROOGE'S CHARACTER.
+THE NEPHEW IS TRYING TO ENGAGE SCROOGE IN CHRISTMAS ACTIVITIES, ATTEMPTING TO IMPROVE HIS UNCLE’S OUTLOOK ON LIFE THROUGH ANNUAL VISITS AND KIND WORDS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS DAY">
+  <data key="d3">19.0</data>
+  <data key="d4">SCROOGE HAS A NEGATIVE ATTITUDE TOWARDS CHRISTMAS DAY, CONSIDERING IT A MEANINGLESS HOLIDAY FILLED WITH HUMBUG.
+SCROOGE REALIZES AND CELEBRATES CHRISTMAS DAY AFTER A NIGHT OF SPIRITUAL VISITATIONS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S NIEPHOW">
+  <data key="d3">5.0</data>
+  <data key="d4">"SCROOGE AND HIS NEPHEW HAVE CONFLICTING VIEWS ON CHRISTMAS, WITH THE NEPHEW INVITING SCROOGE TO CELEBRATE WHILE SCROOGE REFUSES."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="UNCLE">
+  <data key="d3">7.0</data>
+  <data key="d4">THE NEPHEW MAINTAINS A FAMILIAL CONNECTION WITH EBENEZER SCROOGE, DESPITE HIS UNCLE'S COLD ATTITUDE TOWARDS HIM AND THE HOLIDAY SEASON</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS">
+  <data key="d3">26.0</data>
+  <data key="d4">EBENEZER SCROOGE DISPLAYS INDIFFERENCE TOWARDS CHRISTMAS, REFLECTING HIS BROADER DISREGARD FOR THE SPIRIT OF GENEROSITY ASSOCIATED WITH THE EVENT
+SCROOGE HOLDS NEGATIVE OPINIONS ABOUT CHRISTMAS, WHICH CHANGES THROUGH SUPERNATURAL INTERVENTION, HIGHLIGHTING THE TRANSFORMATIVE POWER OF THE HOLIDAY SEASON.
+SCROOGE'S ATTITUDE TOWARDS CHRISTMAS IS PIVOTAL IN THE NARRATIVE AND FORMS A SIGNIFICANT PART OF THE EVENTS THAT INFLUENCE HIS TRANSFORMATION.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="THE GENTLEMAN">
+  <data key="d3">3.0</data>
+  <data key="d4">"THE GENTLEMAN AND SCROOGE DISCUSS CHARITABLE DONATIONS AND THE STATE OF PRISONS AND WORKHOUSES. THE RELATIONSHIP IS STRAINED DUE TO SCROOGE'S RELUCTANCE TO CONTRIBUTE."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="COUNTING-HOUSE">
+  <data key="d3">6.0</data>
+  <data key="d4">SCROOGE WORKS IN A COUNTING-HOUSE WHERE HE INTERACTS WITH HIS CLERK AND CLOSES UP FOR THE DAY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="DUTCH MERCHANT">
+  <data key="d3">5.0</data>
+  <data key="d4">"THE DUTCH MERCHANT BUILT THE FIREPLACE WHERE SCROOGE SITS AND PONDERS OVER MARLEY'S FACE"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="JACOB MARLEY">
+  <data key="d3">38.0</data>
+  <data key="d4">JACOB MARLEY WAS EBENEZER SCROOGE'S BUSINESS PARTNER IN LIFE, AND APPEARS TO HIM AS A SPIRIT AFTER DEATH TO WARN OF HIS FATE
+JACOB MARLEY WAS A BUSINESS PARTNER OF SCROOGE WHO DIED AND HAS RETURNED AS A SPIRIT TO GUIDE HIM.
+JACOB MARLEY IS ASSOCIATED WITH SCROOGE'S PAST AND MENTIONED IN THE CONTEXT OF DEATH AND REFLECTION
+SCROOGE WAS JACOB MARLEY'S BUSINESS PARTNER BEFORE MARLEY DIED, AND MARLEY RETURNS TO HAUNT SCROOGE
+SCROOGE WAS JACOB MARLEY'S BUSINESS PARTNER, AND AFTER HIS DEATH, MARLEY APPEARED TO SCROOGE AS A GHOST TO GUIDE HIM TOWARDS REDEMPTION.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GHOST">
+  <data key="d3">34.0</data>
+  <data key="d4">MORAL GUIDANCE RELATIONSHIP WHERE THE GHOST EDUCATES SCROOGE ON IMPROVING HIS LIFE PATH
+MORAL GUIDANCE RELATIONSHIP WHERE THE GHOST REVEALS THE CONSEQUENCES OF NEGLECTING ONE'S MORAL DUTIES AND ENCOURAGES REDEMPTION
+THE GHOST VISITS SCROOGE TO WARN HIM ABOUT HIS FUTURE AND ENCOURAGE CHANGE
+THE GHOST GUIDES AND SHOWS EVENTS TO SCROOGE IN ORDER TO ALTER HIS PERSPECTIVE ABOUT LIFE AND DEATH</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GHOST OF CHRISTMAS PAST">
+  <data key="d3">16.0</data>
+  <data key="d4">SCROOGE MEETS WITH THE GHOST OF CHRISTMAS PAST TO SEE HIS PAST EVENTS
+THE GHOST OF CHRISTMAS PAST HAS REMINDED SCROOGE ABOUT HIS PAST, LEADING HIM TO REFLECT ON KINDNESS AND PERSONAL HAPPINESS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="THE GHOST">
+  <data key="d3">8.0</data>
+  <data key="d4">THE GHOST GUIDES SCROOGE THROUGH VARIOUS EVENTS, SHOWING HIM SCENES FROM HIS PAST.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GHOST OF CHRISTMAS PRESENT">
+  <data key="d3">14.0</data>
+  <data key="d4">THE GHOST OF CHRISTMAS PRESENT SHOWS SCROOGE A VISION INVOLVING HIS PAST, PRESENT AND FUTURE EXPERIENCES INCLUDING HIS SISTER FAN BRINGING HIM HOME DURING THE HOLIDAYS
+THE GHOST OF CHRISTMAS PRESENT ORGANIZES GAMES FOR SCROOGE AND OTHERS, FACILITATING INTERACTION AND AMUSEMENT DURING THE HOLIDAY SEASON</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="FAN">
+  <data key="d3">7.0</data>
+  <data key="d4">LITTLE FAN IS EBENEZER SCROOGE'S SISTER WHO ATTEMPTS TO BRING HER BROTHER BACK HOME FOR CHRISTMAS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="FEZZIWIG">
+  <data key="d3">16.0</data>
+  <data key="d4">FEZZIWIG IS AN OLD EMPLOYER OF SCROOGE WHO WAS KNOWN FOR BEING JOVIAL AND GENEROUS DURING CHRISTMAS TIME, ESPECIALLY IN CELEBRATING WITH HIS APPRENTICES LIKE EBENEZER.
+SCROOGE EXPERIENCES A MEMORY INVOLVING FEZZIWIG'S PAST GENEROSITY THROUGH A VISIT FROM A GHOST</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="BELLE">
+  <data key="d3">8.0</data>
+  <data key="d4">"SCROOGE WAS ONCE ENGAGED TO BELLE BUT THEY BROKE UP, WHICH SEEMS TO HAVE LEFT A LASTING IMPACT ON SCROOGE'S LIFE"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SPIRIT (TIMELINE)">
+  <data key="d3">8.0</data>
+  <data key="d4">THE SPIRIT VISITS SCROOGE ON DIFFERENT OCCASIONS, EACH TIME REVEALING EVENTS FROM THE PAST OR SHOWING FUTURE CONSEQUENCES OF CURRENT ACTIONS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SPIRIT OF CHRISTMAS PRESENT">
+  <data key="d3">16.0</data>
+  <data key="d4">THE SPIRIT OF CHRISTMAS PRESENT IS GUIDING SCROOGE TO UNDERSTAND AND APPRECIATE THE TRUE MEANING OF CHRISTMAS BY SHOWING HIM VARIOUS SCENES INVOLVING PEOPLE LIKE BOB CRATCHIT
+SCROOGE IS GUIDED AND SHOWN VISIONS BY THE SPIRIT OF CHRISTMAS PRESENT DURING HIS SPIRITUAL JOURNEY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SPIRIT">
+  <data key="d3">31.0</data>
+  <data key="d4">THE SPIRIT IS GUIDING SCROOGE TO DIFFERENT PLACES TO SHOW HIM SCENES THAT ARE MEANT TO TEACH HIM LESSONS ABOUT LIFE AND CHARITY
+THE SPIRIT INTERACTS WITH SCROOGE AND ALLOWS HIM TO EXPERIENCE FESTIVE ACTIVITIES, INDICATING THEY ARE CLOSELY RELATED.
+"SCROOGE IS BEING SHOWN VISIONS BY THE SPIRIT TO UNDERSTAND THE IMPACT OF HIS ACTIONS."
+THE SPIRIT GUIDES AND INTERACTS WITH SCROOGE TO SHOW HIM VISIONS OF HIS PAST AND FUTURE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="FRED">
+  <data key="d3">31.0</data>
+  <data key="d4">"FRED CRITICIZES HIS UNCLE SCROOGE FOR BEING WEALTHY BUT UNGENEROUS"
+FRED IS MENTIONED AS SCROOGE’S NEPHEW WHO INITIATES THE GUESSING GAME TO FIGURE OUT WHAT ANIMAL UNCLE SCROOGE IS THINKING OF.
+SCROOGE IS VISITING FRED, HIS NEPHEW, ON WHAT SEEMS TO BE CHRISTMAS DAY, SHOWING A POSITIVE SHIFT IN THEIR RELATIONSHIP
+SCROOGE IS FRED'S UNCLE, AND FRED WELCOMES HIM DESPITE PREVIOUS ESTRANGEMENT OR TENSION</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCROOGE'S NIECE">
+  <data key="d3">8.0</data>
+  <data key="d4">"SCROOGE'S NIECE DISCUSSES HER UNCLE NEGATIVELY WITH THE FAMILY AT A DINNER GATHERING"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="LONDON">
+  <data key="d3">12.0</data>
+  <data key="d4">THE LOCATION LONDON IS ASSOCIATED WITH AN ANIMAL THAT SCROOGE THINKS ABOUT AND WALKS FREELY IN ITS STREETS, WHICH RELATES SCROOGE TO THIS CITY.
+SCROOGE IS NOTED FOR HAVING A POSITIVE IMPACT ON LONDON AND ITS COMMUNITY THROUGH HIS BENEVOLENCE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS CELEBRATION">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE'S RELATIVES ARE CELEBRATING CHRISTMAS WHERE THEY ENGAGE IN A GUESSING GAME INVOLVING UNCLE SCROOGE AS PART OF THEIR HOLIDAY ACTIVITIES.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="THE SPIRIT">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE IS GUIDED BY THE SPIRIT THROUGH DIFFERENT LOCATIONS AND MOMENTS, TEACHING HIM ABOUT LIFE'S IMPORTANCE</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="GHOST OF CHRISTMAS YET TO COME">
+  <data key="d3">19.0</data>
+  <data key="d4">THE GHOST OF CHRISTMAS YET TO COME GUIDES SCROOGE THROUGH FUTURE VISIONS THAT ARE MEANT TO CHANGE HIS BEHAVIOR
+SCROOGE IS GUIDED AND INFORMED BY THIS GHOST, REFLECTING ON HIS FUTURE ACTIONS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="SCRATCH">
+  <data key="d3">4.0</data>
+  <data key="d4">SCRATCH'S MENTION REFERS TO SOMEONE RECENTLY DECEASED WHOM SCROOGE APPEARS TO KNOW, INDICATING SOME CONNECTION BETWEEN THEM.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="PHANTOM">
+  <data key="d3">5.0</data>
+  <data key="d4">"THE PHANTOM IS GUIDING SCROOGE THROUGH VARIOUS ENCOUNTERS AND PROVIDING HIM WITH INSIGHTS OR EXPLANATIONS ABOUT THE EVENTS SURROUNDING HIS LIFE"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="BOB CRATCHIT">
+  <data key="d3">24.0</data>
+  <data key="d4">SCROOGE IS BOB CRATCHIT'S EMPLOYER WHO OBSERVES CRATCHIT AND HIS FAMILY DURING A VISIT BY THE GHOST
+SCROOGE INTERACTS WITH BOB CRATCHIT AT WORK, INITIALLY IN A STRICT MANNER BUT THEN SURPRISINGLY RAISES HIS SALARY
+SCROOGE RAISES BOB'S SALARY AND OFFERS ASSISTANCE TO IMPROVE THEIR FAMILY'S CIRCUMSTANCES.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHURCHYARD">
+  <data key="d3">7.0</data>
+  <data key="d4">SCROOGE SEES HIS OWN GRAVE IN THE CHURCHYARD, INDICATING A VISION OF POTENTIAL FUTURE IF HE CONTINUES ON HIS CURRENT PATH. </data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS TIME">
+  <data key="d3">7.0</data>
+  <data key="d4">SCROOGE EXPERIENCES SIGNIFICANT PERSONAL TRANSFORMATION DURING THE CHRISTMAS SEASON THROUGH VISITS FROM SPIRITS REPRESENTING PAST, PRESENT, AND FUTURE CHRISTMASES.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="BOY">
+  <data key="d3">8.0</data>
+  <data key="d4">THE BOY ASSISTS SCROOGE IN PURCHASING A PRIZE TURKEY FOR CHRISTMAS, SHOWING THE JOYOUS SPIRIT OF THE DAY</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="POULTERER'S">
+  <data key="d3">7.0</data>
+  <data key="d4">SCROOGE ARRANGES TO PURCHASE A LARGE TURKEY FROM THE POULTERER'S SHOP ON CHRISTMAS DAY AS PART OF HIS CELEBRATION</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="PORTLY GENTLEMAN">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE SHOWED UNEXPECTED KINDNESS TO THE PORTLY GENTLEMAN AFTER THEIR INITIAL INTERACTION, INDICATING A CHANGE IN SCROOGE'S ATTITUDE TOWARDS OTHERS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE" target="CHRISTMAS DAY DINING EVENT">
+  <data key="d3">7.0</data>
+  <data key="d4">SCROOGE IS ATTENDING A DINNER EVENT HOSTED BY HIS NEPHEW, MARKING A SIGNIFICANT CHANGE IN HIS BEHAVIOR AND ATTITUDE TOWARDS SOCIAL INTERACTIONS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MARLEY'S GHOST" target="EBENEZER SCROOGE">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE IS VISITED BY MARLEY'S GHOST WHICH SERVES AS A CATALYST FOR HIS SPIRITUAL JOURNEY AND TRANSFORMATION</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MARLEY" target="CEMETERY OR HAUNTED HOUSE EVENT">
+  <data key="d3">7.0</data>
+  <data key="d4">"MARLEY'S GHOST IS PART OF SUPERNATURAL EVENTS TAKING PLACE, INDICATING A DIRECT LINK BETWEEN HIS DEATH AND CURRENT PARANORMAL OCCURRENCES INVOLVING SCROOGE."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE'S COUNTING-HOUSE" target="LONDON FOG">
+  <data key="d3">6.0</data>
+  <data key="d4">THE FOG AFFECTS VISIBILITY IN LONDON, INCLUDING AROUND SCROOGE’S COUNTING-HOUSE WHERE IT IS DARK EARLY DUE TO THE DENSE AIR.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE'S NEPHEW" target="SCROOGE'S NIECE">
+  <data key="d3">7.0</data>
+  <data key="d4">THE NIECE SUPPORTS HER BROTHER BY SHARING HIS VIEWS TOWARDS CHRISTMAS AND SCROOGE'S ATTITUDE, SHOWING A FAMILY BOND AGAINST SCROOGE’S BELIEFS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE'S NEPHEW" target="CHRISTMAS">
+  <data key="d3">8.0</data>
+  <data key="d4">THE NEPHEW EMBODIES THE SPIRIT AND JOY OF CHRISTMAS, ACTIVELY CHALLENGING SCROOGE'S VIEWS ON THE HOLIDAY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SCROOGE'S NIEPHOW" target="PARLIAMENT">
+  <data key="d3">3.0</data>
+  <data key="d4">"THE NEPHEW IS DESCRIBED AS A POWERFUL SPEAKER, HINTING AT POTENTIAL FUTURE ROLES IN INFLUENTIAL POSITIONS SUCH AS PARLIAMENT.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CHRISTMAS" target="GHOST">
+  <data key="d3">7.0</data>
+  <data key="d4">THE GHOST ACCOMPANIES CHRISTMAS AS IT BRINGS JOY AND EXULTS DURING THE CELEBRATIONS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CLERK" target="CAMDEN TOWN">
+  <data key="d3">4.0</data>
+  <data key="d4">THE CLERK RETURNS TO CAMDEN TOWN AFTER PLAYING ON CORNHILL DURING CHRISTMAS EVE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PRISONS" target="UNION WORKHOUSES">
+  <data key="d3">5.0</data>
+  <data key="d4">"BOTH ARE INSTITUTIONS MENTIONED AS BEING OPERATIONAL, SERVING SIMILAR PURPOSES IN SUPPORTING THOSE WHO CANNOT SUPPORT THEMSELVES."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="WANT" target="SPIRIT OF CHRISTMAS PRESENT">
+  <data key="d3">7.0</data>
+  <data key="d4">THE SPIRIT HIGHLIGHTS WANT TO EMPHASIZE THE CONSEQUENCES OF POVERTY ON YOUNG LIVES.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="ST. DUNSTAN" target="EVIL SPIRIT">
+  <data key="d3">5.0</data>
+  <data key="d4">ST. DUNSTAN IS SAID TO HAVE INTERACTED WITH THE EVIL SPIRIT, POSSIBLY THROUGH CONFRONTATIONS OR INTERACTIONS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="JACOB MARLEY" target="CHRISTMAS EPOCH">
+  <data key="d3">7.0</data>
+  <data key="d4">THE GHOST OF JACOB MARLEY VISITS SCROOGE DURING THE CHRISTMAS PERIOD TO OFFER GUIDANCE AND WARNING ABOUT THE CONSEQUENCES OF NEGLECTING GOODWILL TOWARDS OTHERS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="JACOB MARLEY" target="EBENEZER SCROOGE">
+  <data key="d3">7.0</data>
+  <data key="d4">JACOB MARLEY IS A GHOST THAT VISITS SCROOGES BEFORE THE SPIRITS AND SETS UP THE NARRATIVE FOR SCROOGE'S SPIRITUAL JOURNEY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="EBENEZER SCROOGE" target="CHRISTMAS EVE">
+  <data key="d3">7.0</data>
+  <data key="d4">MOMENT IN TIME WHEN EBENEZER SCROOGE EXPERIENCES SUPERNATURAL EVENTS LEADING TO PERSONAL CHANGE AND REFLECTION ON CHRISTMAS EVE</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="EBENEZER SCROOGE" target="SPIRIT OF CHRISTMAS FUTURE">
+  <data key="d3">8.0</data>
+  <data key="d4">SCROOGE MEETS WITH THE SPIRIT OF CHRISTMAS FUTURE, WHO SHOWS HIM A POSSIBLE FUTURE IF HE DOES NOT CHANGE HIS WAYS.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="GHOST OF CHRISTMAS PAST" target="CHRISTMAS PAST EVENT">
+  <data key="d3">7.0</data>
+  <data key="d4">THE GHOST OF CHRISTMAS PAST VISITS SCROOGE AS PART OF AN EVENT TO SHOW HIS PAST</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="FEZZIWIG" target="MISS FEZZIWIG">
+  <data key="d3">5.0</data>
+  <data key="d4">MISTER FEZZIWIG HAS THREE DAUGHTERS NAMED MISS FEZZIWIGS WHO ARE DESCRIBED AS BEING BEAMING AND LOVABLE.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="FEZZIWIG" target="MRS. FEZZIWIG">
+  <data key="d3">8.0</data>
+  <data key="d4">FEZZIWIG AND MRS. FEZZIWIG ARE MARRIED, LIVING TOGETHER AND ORGANIZING EVENTS WHICH THEY BOTH ATTEND ACTIVELY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="FEZZIWIG" target="DICK">
+  <data key="d3">7.0</data>
+  <data key="d4">DICK IS ONE OF THE APPRENTICES PRAISING FEZZIWIG FOR HIS KINDNESS AND HOSPITALITY DURING THE DANCE EVENT</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="EBENEZER SCROOGE YOUNGER SELF" target="DICK WILKINS">
+  <data key="d3">7.0</data>
+  <data key="d4">DICK WILKINS WAS A FELLOW-APPRENTICE AND FRIEND OF THE YOUNGER SCROOGE WHO HAD STRONG ATTACHMENT TO HIM.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="HOUSEMAID" target="BAKER">
+  <data key="d3">3.0</data>
+  <data key="d4">THE HOUSEMAID'S COUSIN, THE BAKER, ATTENDS THE CHRISTMAS CELEBRATION TOGETHER WITH HER.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="COOK" target="MILKMAN">
+  <data key="d3">2.0</data>
+  <data key="d4">THE COOK COMES TO CELEBRATE ALONGSIDE THE MILKMAN WHO IS MENTIONED AS A PARTICULAR FRIEND OF HER BROTHER.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="GROCERS'" target="CUSTOMERS">
+  <data key="d3">8.0</data>
+  <data key="d4">THE CUSTOMERS FREQUENTLY VISIT THE GROCERS' FOR THEIR PURCHASES, ESPECIALLY DURING HOLIDAY SEASONS LIKE CHRISTMAS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="CUSTOMERS" target="CHRISTMAS DAY EVENT">
+  <data key="d3">9.0</data>
+  <data key="d4">CUSTOMERS PARTICIPATE IN VARIOUS ACTIVITIES ON CHRISTMAS DAY, INCLUDING ATTENDING CHURCH AND SHOPPING AT BAKERS' SHOPS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SPIRIT OF CHRISTMAS PRESENT" target="BOB CRATCHIT">
+  <data key="d3">7.0</data>
+  <data key="d4">THE SPIRIT VISITS BOB'S HOME, SHOWING KINDNESS AND BLESSING HIS MODEST DWELLING WITH A TORCH, HIGHLIGHTING SCROOGE'S CLERK'S HARD WORK AND FAMILY LIFE</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SPIRIT OF CHRISTMAS PRESENT" target="IGNORANCE">
+  <data key="d3">7.0</data>
+  <data key="d4">THE SPIRIT SHOWS IGNORANCE AS A REPRESENTATION OF SOCIETAL NEGLECT IN CHILDREN.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB CRATCHIT" target="BELINDA CRATCHIT">
+  <data key="d3">5.0</data>
+  <data key="d4">MENTIONED AS ONE OF BOB CRATCHIT’S DAUGHTERS WHO BRAVELY WEARS RIBBONS TO HELP HER MOTHER IN HOUSEHOLD CHORES</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB CRATCHIT" target="MASTER PETER CRATCHIT">
+  <data key="d3">6.0</data>
+  <data key="d4">PETER IS BOB'S SON, ACTIVELY INVOLVED IN FAMILY LIFE BY HELPING WITH FOOD PREPARATION AND WEARING HIS FATHER'S SHIRT COLLAR AS A BADGE OF PRIDE</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB CRATCHIT" target="MARTHA">
+  <data key="d3">8.0</data>
+  <data key="d4">BOB CRATCHIT IS MARTHA’S FATHER, INDICATING A FAMILIAL RELATIONSHIP AND RESPONSIBILITY</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB CRATCHIT" target="PETER CRATCHIT">
+  <data key="d3">9.0</data>
+  <data key="d4">BOB CRATCHIT IS PETER'S FATHER, SHOWING A STRONG FAMILY BOND AND ROLE IN RAISING HIM</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB CRATCHIT" target="CRATCHITS FAMILY">
+  <data key="d3">7.0</data>
+  <data key="d4">BOB CRATCHIT IS A MEMBER OF THE CRATCHITS FAMILY, CELEBRATING CHRISTMAS WITH HIS WIFE AND CHILDREN.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MARTHA" target="MASTER PETER">
+  <data key="d3">3.0</data>
+  <data key="d4">MASTER PETER AND MARTHA ARE BOTH CHILDREN FROM POOR BACKGROUNDS DESCRIBED IN THE TEXT.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB" target="MR. SCROOGE'S NEPHEW">
+  <data key="d3">8.0</data>
+  <data key="d4">"MR. SCROOGE'S NEPHEW SHOWED EXTRAORDINARY KINDNESS TO BOB CRATCHIT BY INQUIRING ABOUT HIS DISTRESS AND OFFERING ASSISTANCE, INCLUDING A PERSONAL VISIT."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB" target="MRS. CRATCHIT">
+  <data key="d3">8.0</data>
+  <data key="d4">BOB AND MRS. CRATCHIT ARE DISCUSSING THEIR FAMILY'S FUTURE, SPECIFICALLY PETER’S PROSPECTS, INDICATING A CLOSE RELATIONSHIP WITHIN THE FAMILY.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="BOB" target="SPIRIT OF TINY TIM">
+  <data key="d3">9.0</data>
+  <data key="d4">MENTIONS MADE BY BOB ABOUT THE SPIRIT OF TINY TIM INDICATE A CLOSE BOND WITH THE CHILD.</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MRS. CRATCHIT" target="CRATCHITS FAMILY">
+  <data key="d3">8.0</data>
+  <data key="d4">MRS. CRATCHIT IS PART OF THE CRATCHITS FAMILY AND RESPONSIBLE FOR PREPARING MEALS FOR THE CELEBRATION</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MINERS" target="MOOR">
+  <data key="d3">7.0</data>
+  <data key="d4">MINERS LIVE AND WORK ON THE DESOLATE MOOR WHERE LITTLE GROWS EXCEPT MOSS, FURZE, AND COARSE GRASS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="SPIRIT" target="LONELY LIGHTHOUSE">
+  <data key="d3">5.0</data>
+  <data key="d4">THE SPIRIT LEADS SCROOGE TO A LIGHTHOUSE BUILT UPON DANGEROUS SUNKEN ROCKS IN THE SEA</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="FRED" target="TOPPER">
+  <data key="d3">7.0</data>
+  <data key="d4">"TOPPER PARTICIPATES IN FRED'S CONVERSATION ABOUT BACHELORHOOD AND MARRIAGE, AGREEING THAT BACHELORS HAVE NO RIGHT TO EXPRESS OPINIONS ON MARRIAGE MATTERS"</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="TOPPER" target="PLUMP SISTER IN LACE TUCKER">
+  <data key="d3">5.0</data>
+  <data key="d4">TOPPER IS INVOLVED IN A GAME SETUP TO CATCH THE PLUMP SISTER SPECIFICALLY, INDICATING A PLAYFUL OR STRATEGIC RELATIONSHIP</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="OLD JOE" target="MRS. DILBER">
+  <data key="d3">7.0</data>
+  <data key="d4">OLD JOE INTERACTS WITH MRS. DILBER IN HIS PARLOUR AND THEY ARE FAMILIAR ENOUGH FOR HER TO BE COMFORTABLE SITTING DOWN AND ENGAGING IN A DISCUSSION, INDICATING A RELATIONSHIP BASED ON FREQUENT VISITS OR MUTUAL ACQUAINTANCESHIP</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="OLD JOE" target="LAUNDRESS">
+  <data key="d3">6.0</data>
+  <data key="d4">SIMILAR TO THE RELATIONSHIP BETWEEN OLD JOE AND MRS. DILBER, HE ALSO INTERACTS WITH THE LAUNDRESS WHO IS FAMILIAR ENOUGH WITH HIS PLACE TO FREELY DISCUSS THEIR PERSONAL VIEWS ABOUT TAKING CARE OF ONESELF</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="MRS. DILBER" target="CHARWOMAN">
+  <data key="d3">2.0</data>
+  <data key="d4">THE CHARWOMAN AND MRS. DILBER ARE MENTIONED AS BEING SURPRISED BY THEIR SIMULTANEOUS PRESENCE AT OLD JOE'S PLACE, INDICATING A COINCIDENCE RATHER THAN AN ESTABLISHED RELATIONSHIP BETWEEN THEM</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="LAUNDRESS" target="UNDERTAKER'S MAN">
+  <data key="d3">6.0</data>
+  <data key="d4">BOTH THE UNDERTAKER'S MAN AND THE LAUNDRESS PARTICIPATE IN CONVERSATIONS THAT SUGGEST THEY KNOW EACH OTHER WELL ENOUGH TO SPEAK FREELY ABOUT PERSONAL MATTERS WITHOUT RESERVE</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="A MOTHER AND HER CHILDREN" target="A MAN">
+  <data key="d3">7.0</data>
+  <data key="d4">"THE FATHER BRINGS HOME NEWS THAT AFFECTS THE FAMILY'S FUTURE, CREATING TENSION WITHIN THE HOUSEHOLD."</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION" target="VOLUNTEERS">
+  <data key="d3">7.0</data>
+  <data key="d4">PROJECT GUTENBERG'S SUSTAINABILITY AND MISSION FULFILLMENT DEPEND ON VOLUNTEERS WHO ASSIST IN VARIOUS OPERATIONS, FROM CONTENT GENERATION TO MAINTENANCE OF THE DIGITAL LIBRARY</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION" target="MISSISSIPPI">
+  <data key="d3">8.0</data>
+  <data key="d4">PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION IS LEGALLY ORGANIZED UNDER THE LAWS OF MISSISSIPPI, ENSURING ITS NON-PROFIT STATUS AND OPERATIONS ARE GOVERNED BY STATE REGULATIONS</data>
+  <data key="d5">0</data>
+</edge>
+<edge source="PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION" target="SALT LAKE CITY">
+  <data key="d3">9.0</data>
+  <data key="d4">THE PROJECT GUTENBERG LITERARY ARCHIVE FOUNDATION'S BUSINESS OFFICE IS LOCATED IN SALT LAKE CITY, UTAH</data>
+  <data key="d5">0</data>
+</edge>
+</graph></graphml>
